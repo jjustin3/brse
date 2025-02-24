@@ -1,0 +1,8458 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=1523;
+	};
+	class MarkerIDProvider
+	{
+		nextID=3;
+	};
+	class Camera
+	{
+		pos[]={10113.157,6.5662785,2221.3845};
+		dir[]={-0.067637466,-0.26853895,0.96089125};
+		up[]={-0.01885589,0.96326876,0.26787612};
+		aside[]={0.99753171,-1.8626451e-09,0.070216596};
+	};
+};
+binarizationWanted=0;
+sourceName="BRSEDeux";
+addons[]=
+{
+	"A3_Modules_F",
+	"A3_Characters_F",
+	"A3_Ui_F",
+	"WW2_SPE_Core_c_UI_Gui_c",
+	"A3_Boat_F_Gamma_Boat_Civil_01",
+	"A3_Boat_F_Boat_Transport_01",
+	"A3_Armor_F_Gamma_MBT_01",
+	"A3_Air_F_Exp_VTOL_01",
+	"CUP_AirVehicles_C130J",
+	"A3_Weapons_F",
+	"WW2_SPE_Assets_c_Weapons_InfantryWeapons_c",
+	"CUP_Creatures_Military_PMC",
+	"A3_Structures_F_Naval_Piers",
+	"A3_Structures_F_Ind_AirPort",
+	"A3_Structures_F_Heli_Items_Airport",
+	"A3_Structures_F_Wrecks",
+	"A3_Structures_F_Items_Tools",
+	"A3_Structures_F_Mil_Barracks",
+	"A3_Structures_F_Exp_Military_Barracks_01",
+	"CUP_WaterVehicles_Fregata",
+	"A3_Structures_F_Walls",
+	"A3_Structures_F_Civ_InfoBoards",
+	"A3_Structures_F_Furniture",
+	"A3_Structures_F_Exp_Commercial_MultistoryBuilding_01",
+	"A3_Structures_F_Mil_Cargo",
+	"A3_Structures_F_Dominants_Lighthouse",
+	"A3_Structures_F_Heli_Ind_Cargo",
+	"A3_Structures_F_Exp_Industrial_Port",
+	"A3_Structures_F_Ind_Cargo",
+	"A3_Structures_F_EPA_Items_Vessels",
+	"A3_Supplies_F_Heli_Slingload",
+	"A3_Props_F_Exp_Military_Camps",
+	"A3_Props_F_Enoch_Military_Camps",
+	"rhs_c_a2port_car",
+	"A3_Structures_F_Mil_Fortification",
+	"rhs_c_radars"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=27;
+		class Item0
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="WW2_SPE_Core_c_UI_Gui_c";
+			name="WW2_SPE_Core_c_UI_Gui_c";
+		};
+		class Item4
+		{
+			className="A3_Boat_F_Gamma";
+			name="Arma 3 - Boats and Submersibles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="A3_Boat_F";
+			name="Arma 3 Alpha - Boats and Submersibles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="A3_Armor_F_Gamma";
+			name="Arma 3 - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item7
+		{
+			className="A3_Air_F_Exp";
+			name="Arma 3 Apex - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
+			className="CUP_AirVehicles_C130J";
+			name="CUP_AirVehicles_C130J";
+		};
+		class Item9
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item10
+		{
+			className="WW2_SPE_Assets_c_Weapons_InfantryWeapons_c";
+			name="WW2_SPE_Assets_c_Weapons_InfantryWeapons_c";
+		};
+		class Item11
+		{
+			className="CUP_Creatures_Military_PMC";
+			name="CUP_Creatures_Military_PMC";
+		};
+		class Item12
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item13
+		{
+			className="A3_Structures_F_Ind";
+			name="Arma 3 - Industrial Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item14
+		{
+			className="A3_Structures_F_Heli";
+			name="Arma 3 Helicopters - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item15
+		{
+			className="A3_Structures_F_Wrecks";
+			name="Arma 3 - Vehicle Wrecks";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item16
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item17
+		{
+			className="A3_Structures_F_Exp";
+			name="Arma 3 Apex - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item18
+		{
+			className="CUP_WaterVehicles_Fregata";
+			name="CUP_WaterVehicles_Fregata";
+		};
+		class Item19
+		{
+			className="A3_Structures_F_Exp_Commercial";
+			name="Arma 3 Apex - Commercial Buildings";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item20
+		{
+			className="A3_Structures_F_Exp_Industrial";
+			name="Arma 3 Apex - Industrial Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item21
+		{
+			className="A3_Structures_F_EPA";
+			name="Arma 3 Survive Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item22
+		{
+			className="A3_Supplies_F_Heli";
+			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item23
+		{
+			className="A3_Props_F_Exp";
+			name="Arma 3 Apex - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item24
+		{
+			className="A3_Props_F_Enoch";
+			name="Arma 3 Contact Platform - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item25
+		{
+			className="rhs_c_a2port_car";
+			name="A2 ported cars";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item26
+		{
+			className="rhs_c_radars";
+			name="Radars";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+	};
+};
+dlcs[]=
+{
+	"Expansion",
+	"CUP_Vehicles",
+	"CUP_Units",
+	"Heli",
+	"RHS_AFRF"
+};
+randomSeed=10807786;
+class ScenarioData
+{
+	author="Marc (edit) / gtaboncer (creator)";
+	overViewPictureLocked="Start.jpg";
+	loadScreen="Start.jpg";
+	briefing=0;
+	saving=0;
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="Init";
+			expression="if !(is3DEN) then {[] call compile _value;};";
+			class Value
+			{
+				class data
+				{
+					singleType="STRING";
+					value="";
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	appId=639600;
+	assetType="Free";
+	class Intel
+	{
+		briefingName="B.R.S.E. Community Edition (NO ASR AI)";
+		resistanceEast=1;
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.61436808;
+		year=2035;
+		month=6;
+		day=24;
+		hour=18;
+		minute=17;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=444;
+		class Item0
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1541.326,2.9300001,4612.6782};
+			};
+			init="call{[] spawn {   " \n "sleep 1;   " \n "BRSEAICount = 0;   " \n "execVM ""gameStarter.sqf"";  " \n "};  " \n "};  ";
+			id=2;
+			type="Logic";
+		};
+		class Item1
+		{
+			dataType="Trigger";
+			position[]={2272.7439,127.63854,4580.4321};
+			class Attributes
+			{
+				name="EndTr";
+				condition="true";
+				onActivation="call{     " \n "0 = [thislist] spawn {while {true} do {PIL = _this select 0;PIL = PIL + mymortarrs; PIL = PIL + mortarsCrew; PIL = PIL + safeArr; sleep 0.1;};};}";
+				sizeA=150;
+				sizeB=150;
+				repeatable=1;
+				activationBy="ANY";
+			};
+			id=38;
+			type="EmptyDetector";
+			atlOffset=7.6293945e-06;
+		};
+		class Item2
+		{
+			dataType="Trigger";
+			position[]={1593.801,6.0017285,4539.3389};
+			class Attributes
+			{
+				name="gameplay_trig_4";
+				condition="call{IsSpawnLoaded}";
+				onActivation="call{0=[]spawn {    " \n "myplayers = allUnits;   " \n "myfuncWT = compile preprocessFileLineNumbers ""WeaponTake.sqf"";  " \n "while {firstTimerRun} do {    " \n "sleep 2;                       " \n "{              " \n "sleep 0.13;                       " \n "if ((side _x) == sideEnemy) then {       " \n "_pkr = currentWeapon _x;        " \n "sleep 0.1;        " \n "_pkrC = count (toArray _pkr);   " \n "if (((_pkrC < 1) or (_pkr == ""throw""))  && (isTouchingGround _x)) then {          " \n "_grp = group _x;                          " \n "_cargoAr =  nearestObjects [getPosWorld _x, [""BOX_NATO_AmmoOrd_F""],150];                     " \n "_ccar = count _cargoAr;                  " \n "_range = 150;               " \n "while {_ccar < 1} do {             " \n "_range = _range + 100;             " \n "_cargoAr =  nearestObjects [getPosWorld _x, [""BOX_NATO_AmmoOrd_F""],_range];   " \n "sleep 0.2;                     " \n "_ccar = count _cargoAr;              " \n "};               " \n "if(_ccar >0) then{                       " \n " _carpoint = floor random (_ccar);                      " \n " _cargo = _cargoAr select _carpoint;                   " \n "  if(((count (waypoints _grp)) == 1) && (_x != player))  then {                        " \n "  _wp = _grp addWaypoint [getPosWorld _cargo, 3];                        " \n "  _wp setWaypointType ""MOVE"";                        " \n "  _wp setWaypointStatements [""true"", ""[this] call myfuncWT;_grp = group this; _grp setBehaviour 'COMBAT';""];};};               " \n " };};}forEach myplayers;                       " \n "};};}";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={25,25,25};
+			};
+			id=63;
+			type="EmptyDetector";
+		};
+		class Item3
+		{
+			dataType="Trigger";
+			position[]={1813.01,47.156559,4606.9009};
+			class Attributes
+			{
+				name="round_tigger_1";
+				condition="call{IsSpawnLoaded}";
+				onActivation="call{0 = []spawn {BanPositionChange = true;                                     " \n "deleteVehicle dropPlane1;                                       " \n "deleteVehicle dropPlane2;                                       " \n "deleteVehicle dropPlane3;          " \n "dropPilot1 setDamage 1;       " \n "dropPilot2 setDamage 1;         " \n "dropPilot3 setDamage 1;     " \n "call ChangeWeatherOrTime;                    " \n "_unitAr = allUnits;                         " \n "_unitAr deleteAt (_unitAr find player);  " \n "{                                                      " \n "if ((side _x) == sideEnemy ) then {                                       " \n "firstTimerRun = false;                                        " \n "sleep 0.1;                                                                                   " \n "_carWP = floor(random 3);                                                " \n "_cargAr =  nearestObjects [position _x,[""car""],300];                                          " \n "_myCar = _cargAr select 0;                                           " \n "_grp = group _x;                                    " \n "_wp = 1;                                            " \n "_groupPos = [[[LastPosition, 2300]],[""water""]] call BIS_fnc_randomPos;                  " \n "if (_x != player) then {            " \n "while {(count (waypoints _grp)) > 0} do{ deleteWaypoint ((waypoints _grp) select 0);};                                       " \n "if ((currentWeapon _x)=="""" or (currentWeapon _x)==""throw"") then {[_x] execVm 'noobGift.sqf'};         " \n "sleep 0.2;                                " \n "if ((_carWP > 1) && (count _cargAr > 0)) then {_wp = _grp addWaypoint [position _myCar, 0]; _grp setBehaviour 'CARELESS'; _wp setWaypointType ""GETIN NEAREST""; _wp setWaypointStatements [""true"", ""_grpt = group this; _carGroupPos = [[[LastPosition, 900]],['water']] call BIS_fnc_randomPos;_a1 = _grpt addWaypoint [_carGroupPos, 0];_a1 setWaypointType 'GETOUT';_a1 setWaypointStatements['true','unassignVehicle this; moveOut this; _gr = group this; _gr setBehaviour combatBehav;'];""];} else {_grp setBehaviour 'AWARE'; _wp = _grp addWaypoint [_groupPos, 0]; _wp setWaypointType ""MOVE"";};                                                                                        " \n "_wp setWaypointSpeed ""FULL"";                            " \n "};                                                  " \n "};    " \n "} forEach _unitAr;                                                 " \n "sleep 0.2;                                                       " \n "}  }";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={300,300,300};
+			};
+			id=67;
+			type="EmptyDetector";
+		};
+		class Item4
+		{
+			dataType="Trigger";
+			position[]={12501.531,0.00022125244,303.983};
+			class Attributes
+			{
+				name="WinCondition";
+				condition="plalive== 1";
+				sizeA=0;
+				sizeB=0;
+				sizeC=0;
+				activationType="NOT PRESENT";
+				activationBy="LOGIC";
+				type="END1";
+			};
+			id=188;
+			type="EmptyDetector";
+			atlOffset=79.639999;
+		};
+		class Item5
+		{
+			dataType="Trigger";
+			position[]={1725.006,26.804424,4659.7051};
+			class Attributes
+			{
+				name="gameplay_trig_1";
+				condition="call{IsSpawnLoaded}";
+				onActivation="call{0 = createMarkerLocal [""EndTrMarker"", LastPosition];   " \n """EndTrMarker"" setMarkerSize [2500, 2500];   " \n """EndTrMarker"" setMarkerShape ""ELLIPSE"";   " \n """EndTrMarker"" setMarkerColorLocal ""ColorBlue"";   " \n "switch(ExtTimeData) do{ " \n " case 0: {TimeToC = TimeArray select (0);}; " \n " case 1: {TimeToC = ExtendedTimeArray select (0);};  " \n " case 2: {TimeToC = LongTimeArray select (0);}; " \n " case 3: {TimeToC = SuperLongTimeArray select (0);}; " \n "}; " \n "[TimeToC] call notifyGenerator; }";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={300,300,300};
+			};
+			id=189;
+			type="EmptyDetector";
+		};
+		class Item6
+		{
+			dataType="Trigger";
+			position[]={1589.637,80.766022,2114.7319};
+			class Attributes
+			{
+				name="pointTrigger_0";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=197;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item7
+		{
+			dataType="Trigger";
+			position[]={4371.8682,74.356834,1713.699};
+			class Attributes
+			{
+				name="pointTrigger_1";
+				sizeA=100;
+				sizeB=100;
+			};
+			id=203;
+			type="EmptyDetectorAreaR250";
+			atlOffset=121.208;
+		};
+		class Item8
+		{
+			dataType="Trigger";
+			position[]={9592.9121,-0.00026321411,6742.001};
+			class Attributes
+			{
+				name="pointTrigger_5";
+				sizeA=200;
+				sizeB=200;
+			};
+			id=204;
+			type="EmptyDetectorAreaR50";
+			atlOffset=25.132999;
+		};
+		class Item9
+		{
+			dataType="Trigger";
+			position[]={5965.2124,65.526283,1562.1047};
+			class Attributes
+			{
+				name="pointTrigger_2";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=205;
+			type="EmptyDetectorAreaR250";
+			atlOffset=124.21175;
+		};
+		class Item10
+		{
+			dataType="Trigger";
+			position[]={1829.637,54.396736,7464.252};
+			class Attributes
+			{
+				name="pointTrigger_12";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=206;
+			type="EmptyDetectorAreaR250";
+			atlOffset=129.259;
+		};
+		class Item11
+		{
+			dataType="Trigger";
+			position[]={7411.9121,63.748726,1901.131};
+			class Attributes
+			{
+				name="pointTrigger_3";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=207;
+			type="EmptyDetectorAreaR250";
+			atlOffset=96.269997;
+		};
+		class Item12
+		{
+			dataType="Trigger";
+			position[]={9151.1777,14.784618,7609.812};
+			class Attributes
+			{
+				name="pointTrigger_6";
+				sizeA=200;
+				sizeB=200;
+			};
+			id=208;
+			type="EmptyDetectorAreaR50";
+			atlOffset=41.242001;
+		};
+		class Item13
+		{
+			dataType="Trigger";
+			position[]={9012.3916,14.08815,8397.6777};
+			class Attributes
+			{
+				name="pointTrigger_7";
+				sizeA=200;
+				sizeB=200;
+			};
+			id=209;
+			type="EmptyDetectorAreaR50";
+			atlOffset=48.355999;
+		};
+		class Item14
+		{
+			dataType="Trigger";
+			position[]={8797.0391,13.745567,9457.0674};
+			class Attributes
+			{
+				name="pointTrigger_8";
+				sizeA=200;
+				sizeB=200;
+			};
+			id=210;
+			type="EmptyDetectorAreaR50";
+			atlOffset=61.118004;
+		};
+		class Item15
+		{
+			dataType="Trigger";
+			position[]={1930.3368,54.567848,8337.3418};
+			class Attributes
+			{
+				name="pointTrigger_11";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=211;
+			type="EmptyDetectorAreaR250";
+			atlOffset=107.12677;
+		};
+		class Item16
+		{
+			dataType="Trigger";
+			position[]={8887.3584,-22.630022,10242.961};
+			class Attributes
+			{
+				name="pointTrigger_9";
+				sizeA=200;
+				sizeB=200;
+			};
+			id=213;
+			type="EmptyDetectorAreaR50";
+			atlOffset=19.849001;
+		};
+		class Item17
+		{
+			dataType="Trigger";
+			position[]={1664.431,60.080383,6352.4238};
+			class Attributes
+			{
+				name="pointTrigger_13";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=215;
+			type="EmptyDetectorAreaR250";
+			atlOffset=140.342;
+		};
+		class Item18
+		{
+			dataType="Trigger";
+			position[]={2987.0129,89.169044,10055.42};
+			class Attributes
+			{
+				name="pointTrigger_10";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=216;
+			type="EmptyDetectorAreaR250";
+			atlOffset=187.243;
+		};
+		class Item19
+		{
+			dataType="Trigger";
+			position[]={5650.5972,61.181366,3567.125};
+			class Attributes
+			{
+				name="dropTrigger_1";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=400;
+				sizeB=400;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=282;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item20
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11347.598,783.48584,1213.791};
+					};
+					side="Independent";
+					flags=3;
+					class Attributes
+					{
+						name="dropPilot1";
+					};
+					id=290;
+					type="I_Survivor_F";
+					atlOffset=810.08099;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+				behaviour="CARELESS";
+				speedMode="LIMITED";
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=290;
+						item1=1214;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=289;
+			atlOffset=810.08099;
+		};
+		class Item21
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11807.653,715.19885,12195.069};
+					};
+					side="Independent";
+					flags=3;
+					class Attributes
+					{
+						name="dropPilot2";
+					};
+					id=292;
+					type="I_helipilot_F";
+					atlOffset=797;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male06GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+				behaviour="CARELESS";
+				speedMode="LIMITED";
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=292;
+						item1=1218;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=291;
+			atlOffset=797;
+		};
+		class Item22
+		{
+			dataType="Trigger";
+			position[]={3516.571,0,3114.6919};
+			class Attributes
+			{
+				name="dropTrigger_3";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=320;
+				sizeB=320;
+				activationBy="GUER";
+			};
+			id=296;
+			type="EmptyDetectorAreaR250";
+			atlOffset=8.5929337;
+		};
+		class Item23
+		{
+			dataType="Trigger";
+			position[]={5349.6548,40.66674,2752.9319};
+			class Attributes
+			{
+				name="dropTrigger_2";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=363;
+			type="EmptyDetectorAreaR250";
+			atlOffset=5.7220459e-05;
+		};
+		class Item24
+		{
+			dataType="Trigger";
+			position[]={7467.2012,6.4901757,3654.7822};
+			class Attributes
+			{
+				name="dropTrigger_4";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=364;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item25
+		{
+			dataType="Trigger";
+			position[]={7516.5625,0,3319.2009};
+			class Attributes
+			{
+				name="dropTrigger_5";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				activationBy="GUER";
+			};
+			id=365;
+			type="EmptyDetectorAreaR250";
+			atlOffset=13.434879;
+		};
+		class Item26
+		{
+			dataType="Trigger";
+			position[]={7480.0757,20.012472,3810.9741};
+			class Attributes
+			{
+				name="dropTrigger_6";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=366;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item27
+		{
+			dataType="Trigger";
+			position[]={3653.9895,0,2624.2363};
+			class Attributes
+			{
+				name="dropTriggerSmall";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=368;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.91077268;
+		};
+		class Item28
+		{
+			dataType="Trigger";
+			position[]={4347.7017,118.92894,2733.9072};
+			class Attributes
+			{
+				name="dropTriggerSmall_1";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=369;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item29
+		{
+			dataType="Trigger";
+			position[]={4147.7192,33.111305,3365.6067};
+			class Attributes
+			{
+				name="dropTriggerSmall_2";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=370;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item30
+		{
+			dataType="Trigger";
+			position[]={4310.7188,89.803711,2386.5532};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_6";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=100;
+				sizeB=100;
+				activationBy="GUER";
+			};
+			id=375;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item31
+		{
+			dataType="Trigger";
+			position[]={3950.9333,56.657681,2414.6797};
+			class Attributes
+			{
+				name="dropTriggeredium_7";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				activationBy="GUER";
+			};
+			id=376;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item32
+		{
+			dataType="Trigger";
+			position[]={3895.22,53.830723,2849.8411};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_7";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=377;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-3.8146973e-06;
+		};
+		class Item33
+		{
+			dataType="Trigger";
+			position[]={4442.896,30.877745,4057.3979};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_8";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=378;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item34
+		{
+			dataType="Trigger";
+			position[]={4690.8521,45.949783,3944.8799};
+			class Attributes
+			{
+				name="dropTriggeredium_8";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=350;
+				sizeB=350;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=379;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item35
+		{
+			dataType="Trigger";
+			position[]={4522.8379,54.725113,4245.2451};
+			class Attributes
+			{
+				name="dropTriggeredium_9";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=380;
+			type="EmptyDetectorAreaR250";
+			atlOffset=3.8146973e-06;
+		};
+		class Item36
+		{
+			dataType="Trigger";
+			position[]={5007.7227,57.392796,3552.9336};
+			class Attributes
+			{
+				name="dropTriggeredium_10";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=350;
+				sizeB=350;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=381;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item37
+		{
+			dataType="Trigger";
+			position[]={5040.835,78.386284,4065.938};
+			class Attributes
+			{
+				name="dropTriggeredium_11";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=350;
+				sizeB=350;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=382;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item38
+		{
+			dataType="Trigger";
+			position[]={5755.1187,48.468315,3233.6763};
+			class Attributes
+			{
+				name="dropTriggeredium_12";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=383;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item39
+		{
+			dataType="Trigger";
+			position[]={5328.2212,69.688309,3529.7371};
+			class Attributes
+			{
+				name="dropTriggeredium_13";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=220;
+				sizeB=220;
+				activationBy="GUER";
+			};
+			id=384;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item40
+		{
+			dataType="Trigger";
+			position[]={5311.5522,50.512512,3060.4148};
+			class Attributes
+			{
+				name="dropTriggeredium_14";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				activationBy="GUER";
+			};
+			id=385;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item41
+		{
+			dataType="Trigger";
+			position[]={6040.498,39.622196,3161.2};
+			class Attributes
+			{
+				name="dropTriggeredium_16";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=300;
+				sizeB=300;
+				activationBy="GUER";
+			};
+			id=387;
+			type="EmptyDetectorAreaR250";
+			atlOffset=3.8146973e-06;
+		};
+		class Item42
+		{
+			dataType="Trigger";
+			position[]={6327.6221,55.200104,2789.6951};
+			class Attributes
+			{
+				name="dropTriggeredium_17";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=388;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item43
+		{
+			dataType="Trigger";
+			position[]={6342.2251,81.374702,3703.1013};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_9";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=150;
+				sizeB=150;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=390;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item44
+		{
+			dataType="Trigger";
+			position[]={6545.856,56.039757,2520.728};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_10";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=150;
+				sizeB=150;
+				activationBy="GUER";
+			};
+			id=392;
+			type="EmptyDetectorAreaR250";
+			atlOffset=3.8146973e-06;
+		};
+		class Item45
+		{
+			dataType="Trigger";
+			position[]={6734.8418,30.140009,2709.7151};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_11";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=150;
+				sizeB=150;
+				activationBy="GUER";
+			};
+			id=393;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item46
+		{
+			dataType="Trigger";
+			position[]={6423.9292,59.272732,3183.1909};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_12";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=158;
+				sizeB=180;
+				activationBy="GUER";
+			};
+			id=394;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-3.8146973e-06;
+		};
+		class Item47
+		{
+			dataType="Trigger";
+			position[]={6523.7197,83.960495,3478.3928};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_13";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=150;
+				sizeB=150;
+				activationBy="GUER";
+			};
+			id=395;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item48
+		{
+			dataType="Trigger";
+			position[]={6326.3804,70.704262,3448.1438};
+			class Attributes
+			{
+				name="dropTriggerSmall_6";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=150;
+				sizeB=150;
+				activationBy="GUER";
+			};
+			id=396;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item49
+		{
+			dataType="Trigger";
+			position[]={7491.4048,4.6595974,3608.3274};
+			class Attributes
+			{
+				name="dropTriggerSmall_7";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=397;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item50
+		{
+			dataType="Trigger";
+			position[]={7317.1563,32.972492,3951.2764};
+			class Attributes
+			{
+				name="dropTriggeredium_18";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=398;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item51
+		{
+			dataType="Trigger";
+			position[]={6968.8555,50.316044,3924.7498};
+			class Attributes
+			{
+				name="dropTriggerSmall_8";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=150;
+				sizeB=150;
+				activationBy="GUER";
+			};
+			id=399;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item52
+		{
+			dataType="Trigger";
+			position[]={5567.4771,101.68609,4175.3628};
+			class Attributes
+			{
+				name="dropTriggeredium_19";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=400;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item53
+		{
+			dataType="Trigger";
+			position[]={4055.77,27.438366,3735.958};
+			class Attributes
+			{
+				name="dropTriggerSmall_3";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=401;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item54
+		{
+			dataType="Trigger";
+			position[]={4384.7173,50.007294,3437.9829};
+			class Attributes
+			{
+				name="dropTriggerSmall_5";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=402;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item55
+		{
+			dataType="Trigger";
+			position[]={4647.2598,62.150642,3435.1448};
+			class Attributes
+			{
+				name="dropTriggerSmall_9";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=403;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item56
+		{
+			dataType="Trigger";
+			position[]={6526.6006,85.882057,3868.7507};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_14";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=120;
+				sizeB=120;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=404;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item57
+		{
+			dataType="Trigger";
+			position[]={1805.01,56.822151,4723.708};
+			class Attributes
+			{
+				name="round_tigger_2_helper_1";
+				condition="IsSpawnLoaded";
+				onActivation="0 = createMarkerLocal [""EndTrMarker2"", position EndTr]; " \n """EndTrMarker2"" setMarkerSize [3000, 3000]; " \n """EndTrMarker2"" setMarkerShape ""ELLIPSE""; " \n """EndTrMarker2"" setMarkerColorLocal ""ColorGrey"";";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={569,569,569};
+			};
+			id=407;
+			type="EmptyDetector";
+			atlOffset=3.8146973e-06;
+		};
+		class Item58
+		{
+			dataType="Trigger";
+			position[]={7295.2661,53.89962,6979.7383};
+			class Attributes
+			{
+				name="dropTrigger_7";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=414;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item59
+		{
+			dataType="Trigger";
+			position[]={7050.6577,75.367317,6112.9316};
+			class Attributes
+			{
+				name="dropTrigger_8";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=416;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item60
+		{
+			dataType="Trigger";
+			position[]={6722.3569,95.169884,5326.7378};
+			class Attributes
+			{
+				name="dropTriggeredium_20";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=417;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item61
+		{
+			dataType="Trigger";
+			position[]={6332.3364,142.7469,5344.9365};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_15";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=120;
+				sizeB=120;
+				activationBy="GUER";
+			};
+			id=419;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item62
+		{
+			dataType="Trigger";
+			position[]={6628.3892,157.71034,5964.376};
+			class Attributes
+			{
+				name="dropTriggeredium_21";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=422;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item63
+		{
+			dataType="Trigger";
+			position[]={7333.1953,39.44051,5837.9829};
+			class Attributes
+			{
+				name="dropTriggeredium_22";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=423;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item64
+		{
+			dataType="Trigger";
+			position[]={7466.5957,29.799004,6252.374};
+			class Attributes
+			{
+				name="dropTriggeredium_23";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=427;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item65
+		{
+			dataType="Trigger";
+			position[]={7670.9526,29.682837,6587.2935};
+			class Attributes
+			{
+				name="dropTriggeredium_24";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=428;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item66
+		{
+			dataType="Trigger";
+			position[]={6801.0146,132.98967,6673.8604};
+			class Attributes
+			{
+				name="dropTriggeredium_25";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=429;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item67
+		{
+			dataType="Trigger";
+			position[]={7783.0024,199.99001,7504.1274};
+			class Attributes
+			{
+				name="dropTriggeredium_26";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=432;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item68
+		{
+			dataType="Trigger";
+			position[]={8268.3027,182.95642,7722.4229};
+			class Attributes
+			{
+				name="dropTriggeredium_27";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=433;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item69
+		{
+			dataType="Trigger";
+			position[]={4149.105,35.539291,4174.7988};
+			class Attributes
+			{
+				name="dropTriggerSmall_4";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=443;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item70
+		{
+			dataType="Trigger";
+			position[]={4312.0908,55.193867,4453.8848};
+			class Attributes
+			{
+				name="dropTriggerSmall_10";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=444;
+			type="EmptyDetectorAreaR250";
+			atlOffset=3.8146973e-06;
+		};
+		class Item71
+		{
+			dataType="Trigger";
+			position[]={3736.0581,79.422081,4548.7739};
+			class Attributes
+			{
+				name="dropTriggerSmall_12";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=446;
+			type="EmptyDetectorAreaR250";
+			atlOffset=7.6293945e-06;
+		};
+		class Item72
+		{
+			dataType="Trigger";
+			position[]={4058.6799,64.888657,4751.9492};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_16";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=447;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item73
+		{
+			dataType="Trigger";
+			position[]={3771.78,69.417229,4987.4971};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_17";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=448;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item74
+		{
+			dataType="Trigger";
+			position[]={2932.3418,230.66161,5585.0386};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_18";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=449;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item75
+		{
+			dataType="Trigger";
+			position[]={2446.1995,174.29482,5723.6543};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_19";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=452;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item76
+		{
+			dataType="Trigger";
+			position[]={2694.7161,176.57768,5842.4673};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_20";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=453;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-2.8091888;
+		};
+		class Item77
+		{
+			dataType="Trigger";
+			position[]={3064.604,212.91032,5855.4014};
+			class Attributes
+			{
+				name="dropTriggeredium_28";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				activationBy="GUER";
+			};
+			id=454;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item78
+		{
+			dataType="Trigger";
+			position[]={3447.9077,243.35788,6148.21};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_21";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=455;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item79
+		{
+			dataType="Trigger";
+			position[]={2806.011,205.69646,6177.2354};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_22";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=456;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item80
+		{
+			dataType="Trigger";
+			position[]={3355.1006,244.75996,6580.7144};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_23";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=200;
+				sizeB=200;
+				activationBy="GUER";
+			};
+			id=457;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item81
+		{
+			dataType="Trigger";
+			position[]={3239.46,197.6414,6040.5815};
+			class Attributes
+			{
+				name="dropTrigger_9";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=350;
+				sizeB=350;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=458;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item82
+		{
+			dataType="Trigger";
+			position[]={3228.6357,223.3242,6617.8911};
+			class Attributes
+			{
+				name="dropTrigger_10";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=350;
+				sizeB=350;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=459;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item83
+		{
+			dataType="Trigger";
+			position[]={4243.2744,386.81766,6481.2314};
+			class Attributes
+			{
+				name="dropTrigger_11";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=350;
+				sizeB=350;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=460;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item84
+		{
+			dataType="Trigger";
+			position[]={2936.7224,230.96764,5582.6348};
+			class Attributes
+			{
+				name="dropTrigger_12";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=350;
+				sizeB=350;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=473;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item85
+		{
+			dataType="Trigger";
+			position[]={3093.4128,193.70984,5201.8477};
+			class Attributes
+			{
+				name="dropTriggeredium_29";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=474;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item86
+		{
+			dataType="Trigger";
+			position[]={3432.2688,110.47543,5383.7617};
+			class Attributes
+			{
+				name="dropTriggeredium_30";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=475;
+			type="EmptyDetectorAreaR250";
+			atlOffset=7.6293945e-06;
+		};
+		class Item87
+		{
+			dataType="Trigger";
+			position[]={3690.5674,137.31526,5622.2017};
+			class Attributes
+			{
+				name="dropTriggeredium_31";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=476;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item88
+		{
+			dataType="Trigger";
+			position[]={2813.7786,226.48016,4960.0996};
+			class Attributes
+			{
+				name="dropTriggeredium_32";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=477;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item89
+		{
+			dataType="Trigger";
+			position[]={2200.2319,174.91125,3656.3059};
+			class Attributes
+			{
+				name="pointTrigger_14";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=479;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item90
+		{
+			dataType="Trigger";
+			position[]={4008.8906,29.244514,3771.6858};
+			class Attributes
+			{
+				name="dropTrigger_13";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				activationBy="GUER";
+			};
+			id=480;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item91
+		{
+			dataType="Trigger";
+			position[]={7324.0342,168.02727,7699.5498};
+			class Attributes
+			{
+				name="dropTrigger_14";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=481;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item92
+		{
+			dataType="Trigger";
+			position[]={5777.0469,293.32758,7078.8896};
+			class Attributes
+			{
+				name="dropTrigger_15";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=482;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item93
+		{
+			dataType="Trigger";
+			position[]={4782.563,414.87283,6864.7368};
+			class Attributes
+			{
+				name="dropTrigger_16";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=483;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item94
+		{
+			dataType="Trigger";
+			position[]={4323.2515,418.94232,6933.5083};
+			class Attributes
+			{
+				name="dropTriggeredium_33";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=485;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item95
+		{
+			dataType="Trigger";
+			position[]={4185.3271,402.42065,6909.2788};
+			class Attributes
+			{
+				name="dropTriggeredium_34";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=486;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item96
+		{
+			dataType="Trigger";
+			position[]={5107.8433,406.57214,7370.98};
+			class Attributes
+			{
+				name="dropTriggeredium_35";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=488;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item97
+		{
+			dataType="Trigger";
+			position[]={4737.5537,393.06406,7374.2861};
+			class Attributes
+			{
+				name="dropTriggeredium_36";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=489;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item98
+		{
+			dataType="Trigger";
+			position[]={4498.1538,364.56561,7510.605};
+			class Attributes
+			{
+				name="dropTriggeredium_37";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=492;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item99
+		{
+			dataType="Trigger";
+			position[]={3982.6882,391.46735,6997.4663};
+			class Attributes
+			{
+				name="dropTriggeredium_38";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=494;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item100
+		{
+			dataType="Trigger";
+			position[]={3983.9885,391.44089,6994.8652};
+			class Attributes
+			{
+				name="dropTriggeredium_39";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=495;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.051574707;
+		};
+		class Item101
+		{
+			dataType="Trigger";
+			position[]={3517.1604,353.16046,7032.5762};
+			class Attributes
+			{
+				name="dropTriggeredium_40";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=496;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item102
+		{
+			dataType="Trigger";
+			position[]={7496.1387,140.30794,8261.8906};
+			class Attributes
+			{
+				name="dropTrigger_17";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=501;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item103
+		{
+			dataType="Trigger";
+			position[]={6603.0127,141.87029,7576.8091};
+			class Attributes
+			{
+				name="dropTriggeredium_41";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=502;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item104
+		{
+			dataType="Trigger";
+			position[]={6769.0283,153.60521,8324.9336};
+			class Attributes
+			{
+				name="dropTriggeredium_42";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=503;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item105
+		{
+			dataType="Trigger";
+			position[]={7084.25,169.27797,8224.0635};
+			class Attributes
+			{
+				name="dropTriggeredium_43";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=504;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item106
+		{
+			dataType="Trigger";
+			position[]={6827.8711,110.40904,8789.3604};
+			class Attributes
+			{
+				name="dropTriggeredium_44";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=505;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item107
+		{
+			dataType="Trigger";
+			position[]={6331.9238,114.77773,8745.2285};
+			class Attributes
+			{
+				name="dropTriggeredium_45";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=506;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-0.066772461;
+		};
+		class Item108
+		{
+			dataType="Trigger";
+			position[]={5023.873,378.55832,7077.1621};
+			class Attributes
+			{
+				name="dropTriggeredium_46";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=508;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item109
+		{
+			dataType="Trigger";
+			position[]={3837.2031,366.86832,7544.4536};
+			class Attributes
+			{
+				name="dropTriggeredium_47";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=515;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item110
+		{
+			dataType="Trigger";
+			position[]={8146.3418,29.312878,9922.0732};
+			class Attributes
+			{
+				name="dropTrigger_18";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=516;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item111
+		{
+			dataType="Trigger";
+			position[]={7281.8779,98.776749,9030.959};
+			class Attributes
+			{
+				name="dropTrigger_19";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=517;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item112
+		{
+			dataType="Trigger";
+			position[]={6279.7188,126.57922,9029.3945};
+			class Attributes
+			{
+				name="dropTrigger_20";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=518;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item113
+		{
+			dataType="Trigger";
+			position[]={6214.8838,126.64138,8579.9473};
+			class Attributes
+			{
+				name="dropTrigger_21";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=520;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item114
+		{
+			dataType="Trigger";
+			position[]={4589.3848,376.68512,8117.8701};
+			class Attributes
+			{
+				name="dropTriggeredium_48";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=521;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item115
+		{
+			dataType="Trigger";
+			position[]={4570.6846,389.12244,8368.9912};
+			class Attributes
+			{
+				name="dropTriggeredium_49";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=522;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item116
+		{
+			dataType="Trigger";
+			position[]={5072.9258,367.97131,8366.3193};
+			class Attributes
+			{
+				name="dropTriggeredium_50";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=523;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item117
+		{
+			dataType="Trigger";
+			position[]={3664.4199,134.26897,8442.8857};
+			class Attributes
+			{
+				name="dropTriggeredium_51";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=524;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item118
+		{
+			dataType="Trigger";
+			position[]={3242.3813,51.104061,8469.1299};
+			class Attributes
+			{
+				name="dropTriggeredium_52";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=180;
+				sizeB=180;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=525;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item119
+		{
+			dataType="Trigger";
+			position[]={8022.3901,33.50267,8965.2363};
+			class Attributes
+			{
+				name="dropTriggeredium_53";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=528;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item120
+		{
+			dataType="Trigger";
+			position[]={7178.1997,111.95495,9963.1045};
+			class Attributes
+			{
+				name="dropTrigger_22";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=529;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item121
+		{
+			dataType="Trigger";
+			position[]={6089.7158,170.98926,9599.6553};
+			class Attributes
+			{
+				name="dropTriggeredium_54";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=530;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item122
+		{
+			dataType="Trigger";
+			position[]={6087.8516,162.06494,10121.53};
+			class Attributes
+			{
+				name="dropTriggeredium_55";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=531;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-3.8415985;
+		};
+		class Item123
+		{
+			dataType="Trigger";
+			position[]={5392.6387,176.29932,10350.784};
+			class Attributes
+			{
+				name="dropTriggeredium_56";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=532;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-0.78178406;
+		};
+		class Item124
+		{
+			dataType="Trigger";
+			position[]={5200.2056,353.27817,9036.3965};
+			class Attributes
+			{
+				name="dropTriggeredium_57";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=533;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item125
+		{
+			dataType="Trigger";
+			position[]={4853.064,365.70441,8740.1533};
+			class Attributes
+			{
+				name="dropTriggeredium_58";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=250;
+				sizeB=250;
+				activationBy="GUER";
+			};
+			id=534;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item126
+		{
+			dataType="Trigger";
+			position[]={3516.4963,127.02759,8456.3232};
+			class Attributes
+			{
+				name="dropTrigger_23";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=541;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item127
+		{
+			dataType="Trigger";
+			position[]={7924.2334,159.82909,8176.8403};
+			class Attributes
+			{
+				name="dropTrigger_24";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=542;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item128
+		{
+			dataType="Trigger";
+			position[]={1745.807,55.34407,4771.7109};
+			class Attributes
+			{
+				name="round_tigger_2_helper_2";
+				condition="IsSpawnLoaded";
+				onActivation="myemitter = ""#particlesource"" createVehicleLocal (position EndTr);       " \n "myemitter setParticleClass ""SmokeTrailEffect2"";       " \n "myemitter setParticleCircle [3000,[0,0,5]];       " \n "myemitter setParticleRandom [0, [0.0, 0.0, 0.0], [0, 0, 0.0], 0, 0.0, [0.5, 0.5, 0, 0.9], 0, 0];       " \n "      " \n "myemitter1 = ""#particlesource"" createVehicleLocal (position EndTr);       " \n "myemitter1 setParticleClass ""SmokeTrailEffect2"";       " \n "myemitter1 setParticleCircle [3000,[0,0,5]];       " \n "myemitter1 setParticleRandom [0, [0.0, 0.0, 0.0], [0, 0, 0.0], 0, 0.0, [0.5, 0.5, 0, 0.9], 0, 0];       " \n "      " \n "myemitter2 = ""#particlesource"" createVehicleLocal (position EndTr);       " \n "myemitter2 setParticleClass ""SmokeTrailEffect2"";       " \n "myemitter2 setParticleCircle [3000,[0,0,5]];       " \n "myemitter2 setParticleRandom [0, [0.0, 0.0, 0.0], [0, 0, 0.0], 0, 0.0, [0.5, 0.5, 0, 0.9], 0, 0];       " \n "      " \n "myemitter3 = ""#particlesource"" createVehicleLocal (position EndTr);       " \n "myemitter3 setParticleClass ""SmokeTrailEffect2"";       " \n "myemitter3 setParticleCircle [3000,[0,0,5]];       " \n "myemitter3 setParticleRandom [0, [0.0, 0.0, 0.0], [0, 0, 0.0], 0, 0.0, [0.5, 0.5, 0, 0.9], 0, 0];      " \n "     " \n "myemitter4 = ""#particlesource"" createVehicleLocal (position EndTr);       " \n "myemitter4 setParticleClass ""SmokeTrailEffect2"";       " \n "myemitter4 setParticleCircle [3000,[0,0,5]];       " \n "myemitter4 setParticleRandom [0, [0.0, 0.0, 0.0], [0, 0, 0.0], 0, 0.0, [0.5, 0.5, 0, 0.9], 0, 0];      " \n "     " \n "myemitter5 = ""#particlesource"" createVehicleLocal (position EndTr);       " \n "myemitter5 setParticleClass ""SmokeTrailEffect2"";       " \n "myemitter5 setParticleCircle [3000,[0,0,5]];       " \n "myemitter5 setParticleRandom [0, [0.0, 0.0, 0.0], [0, 0, 0.0], 0, 0.0, [0.5, 0.5, 0, 0.9], 0, 0];      " \n "     " \n "myemitter6 = ""#particlesource"" createVehicleLocal (position EndTr);       " \n "myemitter6 setParticleClass ""SmokeTrailEffect2"";       " \n "myemitter6 setParticleCircle [3000,[0,0,5]];       " \n "myemitter6 setParticleRandom [0, [0.0, 0.0, 0.0], [0, 0, 0.0], 0, 0.0, [0.5, 0.5, 0, 0.9], 0, 0]; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={569,569,569};
+			};
+			id=586;
+			type="EmptyDetector";
+			atlOffset=4.3749962;
+		};
+		class Item129
+		{
+			dataType="Trigger";
+			position[]={5276.7749,69.532799,3409.436};
+			class Attributes
+			{
+				name="dropTriggeredium_15";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropmedium.sqf"";";
+				sizeA=220;
+				sizeB=220;
+				activationBy="GUER";
+			};
+			id=608;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item130
+		{
+			dataType="Trigger";
+			position[]={7694.0508,26.929377,3762.6792};
+			class Attributes
+			{
+				name="dropTrigger_25";
+				onActivation="0=[ThisList] execVM ""PlaneDropBig.sqf"";";
+				sizeA=450;
+				sizeB=450;
+				repeatable=1;
+				activationBy="GUER";
+			};
+			id=609;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item131
+		{
+			dataType="Trigger";
+			position[]={6515.7632,82.747826,3620.4819};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_24";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=150;
+				sizeB=150;
+				activationBy="GUER";
+			};
+			id=611;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item132
+		{
+			dataType="Trigger";
+			position[]={6307.8804,77.753197,3592.8718};
+			class Attributes
+			{
+				name="dropTriggerSmall_11";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmall.sqf"";";
+				sizeA=150;
+				sizeB=150;
+				activationBy="GUER";
+			};
+			id=612;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item133
+		{
+			dataType="Trigger";
+			position[]={6777.3354,80.939575,3631.0005};
+			class Attributes
+			{
+				name="dropTriggerSmallMedium_25";
+				condition="this ";
+				onActivation="0=[ThisList] execVM ""PlaneDropsmallMedium.sqf"";";
+				sizeA=150;
+				sizeB=150;
+				activationBy="GUER";
+			};
+			id=614;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item134
+		{
+			dataType="Marker";
+			position[]={5166.3262,0,9325.1289};
+			name="ban_marker";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0;
+			a=150;
+			b=150;
+			id=632;
+			atlOffset=-385.99634;
+		};
+		class Item135
+		{
+			dataType="Marker";
+			position[]={5077.7871,0,9569.1953};
+			name="ban_marker_1";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0;
+			a=150;
+			b=150;
+			id=633;
+			atlOffset=-338.71698;
+		};
+		class Item136
+		{
+			dataType="Marker";
+			position[]={6484.8931,0,8037.873};
+			name="ban_marker_2";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0.038292002;
+			a=150;
+			b=150;
+			id=634;
+			atlOffset=-248.45544;
+		};
+		class Item137
+		{
+			dataType="Marker";
+			position[]={4435.7241,0,6089.6699};
+			name="ban_marker_3";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0.029820438;
+			a=150;
+			b=150;
+			id=635;
+			atlOffset=-435.0032;
+		};
+		class Item138
+		{
+			dataType="Marker";
+			position[]={5476.981,0,6273.7251};
+			name="ban_marker_4";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0.03405622;
+			a=150;
+			b=150;
+			id=636;
+			atlOffset=-508.35883;
+		};
+		class Item139
+		{
+			dataType="Marker";
+			position[]={4559.833,0,9035.6563};
+			name="ban_marker_5";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0.012877112;
+			a=150;
+			b=150;
+			id=637;
+			atlOffset=-322.80234;
+		};
+		class Item140
+		{
+			dataType="Marker";
+			position[]={6412.4282,0,9860.666};
+			name="ban_marker_6";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0;
+			a=150;
+			b=150;
+			id=638;
+			atlOffset=-182.16606;
+		};
+		class Item141
+		{
+			dataType="Marker";
+			position[]={5771.0352,0,10206.16};
+			name="ban_marker_7";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0;
+			a=150;
+			b=150;
+			id=639;
+			atlOffset=-212.65918;
+		};
+		class Item142
+		{
+			dataType="Marker";
+			position[]={6261.998,0,6442.1011};
+			name="ban_marker_8";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0.03405622;
+			a=150;
+			b=150;
+			id=640;
+			atlOffset=-343.09149;
+		};
+		class Item143
+		{
+			dataType="Marker";
+			position[]={5678.564,0,5519.8389};
+			name="ban_marker_9";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0.029820438;
+			a=150;
+			b=150;
+			id=641;
+			atlOffset=-359.87894;
+		};
+		class Item144
+		{
+			dataType="Marker";
+			position[]={5790.1729,0,4952.6152};
+			name="ban_marker_10";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0.017112894;
+			a=150;
+			b=150;
+			id=642;
+			atlOffset=-300.23444;
+		};
+		class Item145
+		{
+			dataType="Marker";
+			position[]={5084.4941,0,8088.1021};
+			name="ban_marker_11";
+			markerType="ELLIPSE";
+			type="ellipse";
+			alpha=0.029820438;
+			a=150;
+			b=150;
+			id=643;
+			atlOffset=-443.56647;
+		};
+		class Item146
+		{
+			dataType="Trigger";
+			position[]={1874.241,60.384232,4679.7622};
+			class Attributes
+			{
+				name="round_tigger_2";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; 0 = [] spawn { while {true} do {sleep 7;{ if(vehicle _x in PIL) then { if(_x == player) then {hint """";} } else {_actDamage = getDammage _x; _x setDamage _actDamage + 0.1; sleep 0.2; if (_x == player) then {hint YouAreGettingDamage;};};}foreach AllUnits}; }  ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={570,570,570};
+			};
+			id=648;
+			type="EmptyDetector";
+		};
+		class Item147
+		{
+			dataType="Trigger";
+			position[]={1950.0129,95.061317,4753.729};
+			class Attributes
+			{
+				name="round_tigger_3";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={780,780,780};
+			};
+			id=649;
+			type="EmptyDetector";
+		};
+		class Item148
+		{
+			dataType="Trigger";
+			position[]={2003.196,109.42786,4814.3569};
+			class Attributes
+			{
+				name="round_tigger_4";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={960,960,960};
+			};
+			id=652;
+			type="EmptyDetector";
+			atlOffset=-7.6293945e-06;
+		};
+		class Item149
+		{
+			dataType="Trigger";
+			position[]={2032.146,114.2959,4864.7041};
+			class Attributes
+			{
+				name="round_tigger_5";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={1130,1130,1130};
+			};
+			id=653;
+			type="EmptyDetector";
+		};
+		class Item150
+		{
+			dataType="Trigger";
+			position[]={2064.8711,118.85156,4907.498};
+			class Attributes
+			{
+				name="round_tigger_6";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={1250,1250,1250};
+			};
+			id=654;
+			type="EmptyDetector";
+		};
+		class Item151
+		{
+			dataType="Trigger";
+			position[]={2093.821,121.29337,4947.7759};
+			class Attributes
+			{
+				name="round_tigger_7";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={1360,1360,1360};
+			};
+			id=655;
+			type="EmptyDetector";
+		};
+		class Item152
+		{
+			dataType="Trigger";
+			position[]={2135.3569,124.0738,4986.7949};
+			class Attributes
+			{
+				name="round_tigger_8";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={1450,1450,1450};
+			};
+			id=656;
+			type="EmptyDetector";
+			atlOffset=7.6293945e-06;
+		};
+		class Item153
+		{
+			dataType="Trigger";
+			position[]={2176.8931,126.5171,5017.0029};
+			class Attributes
+			{
+				name="round_tigger_9";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={1510,1510,1510};
+			};
+			id=657;
+			type="EmptyDetector";
+		};
+		class Item154
+		{
+			dataType="Trigger";
+			position[]={1697.804,33.953575,4566.8999};
+			class Attributes
+			{
+				name="gameplay_trig_3";
+				condition="IsSpawnLoaded";
+				onActivation="1 cutText [""THE PLAY AREA WILL BE CREATED IN 1 MIN 0 SEC"", ""PLAIN DOWN"", 0.7];";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={240,240,240};
+			};
+			id=663;
+			type="EmptyDetector";
+		};
+		class Item155
+		{
+			dataType="Trigger";
+			position[]={2219.4319,130.73828,5040.5249};
+			class Attributes
+			{
+				name="round_tigger_10";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={1565,1565,1565};
+			};
+			id=668;
+			type="EmptyDetector";
+		};
+		class Item156
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9287.5986,1.2970161,3871.481};
+				angles[]={0,4.6699805,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=686;
+			type="C_Boat_Civil_01_police_F";
+			atlOffset=7.9391675;
+		};
+		class Item157
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8906.791,1.2446525,4253.6904};
+				angles[]={0,4.542335,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=689;
+			type="C_Rubberboat";
+			atlOffset=3.5131769;
+		};
+		class Item158
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9272.2705,1.2446525,3723.9478};
+				angles[]={0,4.6616712,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=697;
+			type="B_Boat_Transport_01_F";
+			atlOffset=12.232317;
+		};
+		class Item159
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9273.5928,-3.3255701,3869.6196};
+				angles[]={0,4.542335,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=707;
+			type="C_Rubberboat";
+			atlOffset=8.280077;
+		};
+		class Item160
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9252.1289,-2.073586,6904.6221};
+				angles[]={6.2727871,4.542335,0.081419133};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=708;
+			type="C_Rubberboat";
+			atlOffset=0.0011198521;
+		};
+		class Item161
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9553.1934,-1.6645751,6116.3491};
+				angles[]={0.054346491,4.542335,0.11232498};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=711;
+			type="C_Rubberboat";
+			atlOffset=0.0011200905;
+		};
+		class Item162
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8208.1758,1.2354234,6158.5117};
+				angles[]={0,4.542335,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=712;
+			type="C_Rubberboat";
+			atlOffset=6.3596354;
+		};
+		class Item163
+		{
+			dataType="Trigger";
+			position[]={1661.702,13.355495,4598.9419};
+			class Attributes
+			{
+				name="gameplay_trig_2";
+				condition="IsSpawnLoaded && (EnableCustomHudMode<1)";
+				onActivation="1 cutText [""Press 'F2' or 'Use Action 1' to see your HP"", ""PLAIN DOWN"", 0.7];";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={0,60,210};
+			};
+			id=752;
+			type="EmptyDetector";
+		};
+		class Item164
+		{
+			dataType="Trigger";
+			position[]={9459.8662,18.660877,3628.741};
+			class Attributes
+			{
+				name="pointTrigger_4";
+				sizeA=500;
+				sizeB=500;
+			};
+			id=777;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item165
+		{
+			dataType="Trigger";
+			position[]={2247.457,134.38513,5056.1968};
+			class Attributes
+			{
+				name="round_tigger_11";
+				condition="IsSpawnLoaded";
+				onActivation="call triggerLogicCreator; ";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={1595,1595,1595};
+			};
+			id=816;
+			type="EmptyDetector";
+			atlOffset=1.5258789e-05;
+		};
+		class Item166
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={601.41101,28.921438,12300.425};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar1D";
+					};
+					id=831;
+					type="B_crew_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={601.41101,28.921438,12300.425};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						name="mortar1C";
+					};
+					id=832;
+					type="B_crew_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={601.41101,28.921438,12300.425};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar1G";
+					};
+					id=833;
+					type="B_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=831;
+						item1=830;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=832;
+						item1=830;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=833;
+						item1=830;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=829;
+			atlOffset=-0.18917656;
+		};
+		class Item167
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={601.41101,31.814135,12300.375};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				name="mortar1";
+			};
+			id=830;
+			type="B_MBT_01_arty_F";
+			atlOffset=-0.18917656;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""arifle_MXC_F""],[2]],[[""SmokeShell"",""SmokeShellBlue"",""30Rnd_65x39_caseless_mag""],[2,2,4]],[[""FirstAidKit""],[40]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item168
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={629.44702,28.921438,12302.582};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar2D";
+					};
+					id=835;
+					type="B_crew_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={629.44702,28.921438,12302.582};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						name="mortar2C";
+					};
+					id=836;
+					type="B_crew_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={629.44702,28.921438,12302.582};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar2G";
+					};
+					id=837;
+					type="B_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=835;
+						item1=838;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=836;
+						item1=838;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=837;
+						item1=838;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=834;
+			atlOffset=-0.18917656;
+		};
+		class Item169
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={629.44702,31.814135,12302.532};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				name="mortar2";
+			};
+			id=838;
+			type="B_MBT_01_arty_F";
+			atlOffset=-0.18917656;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""arifle_MXC_F""],[2]],[[""SmokeShell"",""SmokeShellBlue"",""30Rnd_65x39_caseless_mag""],[2,2,4]],[[""FirstAidKit""],[40]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item170
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={666.41803,28.921438,12301.966};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar3D";
+					};
+					id=840;
+					type="B_crew_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={666.41803,28.921438,12301.966};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						name="mortar3C";
+					};
+					id=841;
+					type="B_crew_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={666.41803,28.921438,12301.966};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar3G";
+					};
+					id=842;
+					type="B_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=840;
+						item1=843;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=841;
+						item1=843;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=842;
+						item1=843;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=839;
+			atlOffset=-0.18917656;
+		};
+		class Item171
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={666.41803,31.814135,12301.916};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				name="mortar3";
+			};
+			id=843;
+			type="B_MBT_01_arty_F";
+			atlOffset=-0.18917656;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""arifle_MXC_F""],[2]],[[""SmokeShell"",""SmokeShellBlue"",""30Rnd_65x39_caseless_mag""],[2,2,4]],[[""FirstAidKit""],[30]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item172
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={703.69708,28.921438,12302.273};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar4D";
+					};
+					id=845;
+					type="B_crew_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={703.69708,28.921438,12302.273};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						name="mortar4C";
+					};
+					id=846;
+					type="B_crew_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={703.69708,28.921438,12302.273};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar4G";
+					};
+					id=847;
+					type="B_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=845;
+						item1=848;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=846;
+						item1=848;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=847;
+						item1=848;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=844;
+			atlOffset=-0.18917656;
+		};
+		class Item173
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={703.69708,31.814135,12302.224};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				name="mortar4";
+			};
+			id=848;
+			type="B_MBT_01_arty_F";
+			atlOffset=-0.18917656;
+		};
+		class Item174
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={652.55396,28.921438,12269.308};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar6D";
+					};
+					id=850;
+					type="B_crew_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={652.55396,28.921438,12269.308};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						name="mortar6C";
+					};
+					id=851;
+					type="B_crew_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={652.55396,28.921438,12269.308};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar6G";
+					};
+					id=852;
+					type="B_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=850;
+						item1=853;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=851;
+						item1=853;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=852;
+						item1=853;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=849;
+			atlOffset=-0.18917656;
+		};
+		class Item175
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={652.55396,31.814135,12269.258};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				name="mortar6";
+			};
+			id=853;
+			type="B_MBT_01_arty_F";
+			atlOffset=-0.18917656;
+		};
+		class Item176
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={693.22192,28.921438,12268.384};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar7D";
+					};
+					id=855;
+					type="B_crew_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={693.22192,28.921438,12268.384};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						name="mortar7C";
+					};
+					id=856;
+					type="B_crew_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={693.22192,28.921438,12268.384};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar7G";
+					};
+					id=857;
+					type="B_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=855;
+						item1=858;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=856;
+						item1=858;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=857;
+						item1=858;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=854;
+			atlOffset=-0.18917656;
+		};
+		class Item177
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={693.22192,31.814135,12268.334};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				name="mortar7";
+			};
+			id=858;
+			type="B_MBT_01_arty_F";
+			atlOffset=-0.18917656;
+		};
+		class Item178
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={606.95654,28.921438,12268.076};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar5D";
+					};
+					id=860;
+					type="B_crew_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={606.95654,28.921438,12268.076};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						name="mortar5C";
+					};
+					id=861;
+					type="B_crew_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={606.95654,28.921438,12268.076};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						name="mortar5G";
+					};
+					id=862;
+					type="B_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=3;
+				};
+				class Links
+				{
+					items=3;
+					class Item0
+					{
+						linkID=0;
+						item0=860;
+						item1=863;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=861;
+						item1=863;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0,0};
+						};
+					};
+					class Item2
+					{
+						linkID=2;
+						item0=862;
+						item1=863;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=859;
+			atlOffset=-0.18917656;
+		};
+		class Item179
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={606.95654,31.814135,12268.026};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				name="mortar5";
+			};
+			id=863;
+			type="B_MBT_01_arty_F";
+			atlOffset=-0.18917656;
+		};
+		class Item180
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9882.7012,74.36097,17463.754};
+						angles[]={0,0.040823251,0};
+					};
+					side="Independent";
+					flags=3;
+					class Attributes
+					{
+						name="lootPlanePilot_1";
+					};
+					id=866;
+					type="I_Survivor_F";
+					atlOffset=150.908;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+				behaviour="CARELESS";
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=866;
+						item1=867;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=865;
+			atlOffset=150.908;
+		};
+		class Item181
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9882.7168,81.049088,17463.703};
+				angles[]={0,0.040823251,0};
+			};
+			side="Independent";
+			flags=2;
+			class Attributes
+			{
+				name="lootPlane";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=867;
+			type="B_T_VTOL_01_infantry_F";
+			atlOffset=150.908;
+		};
+		class Item182
+		{
+			dataType="Trigger";
+			position[]={5515.5503,46.518192,2858.1807};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=869;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item183
+		{
+			dataType="Trigger";
+			position[]={5229.376,64.989761,2486.3682};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_1";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=870;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-7.6293945e-06;
+		};
+		class Item184
+		{
+			dataType="Trigger";
+			position[]={5844.4414,16.413019,2510.8213};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_2";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=871;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item185
+		{
+			dataType="Trigger";
+			position[]={4741.8379,86.092667,2672.8232};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_3";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=872;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item186
+		{
+			dataType="Trigger";
+			position[]={4290.5469,106.91837,2562.0654};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_4";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=873;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item187
+		{
+			dataType="Trigger";
+			position[]={6527.1616,49.98772,2649.6768};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_5";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=874;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item188
+		{
+			dataType="Trigger";
+			position[]={5839.4805,53.942829,3454.7256};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_6";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=875;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item189
+		{
+			dataType="Trigger";
+			position[]={5107.167,58.752285,3580.3604};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_7";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=876;
+			type="EmptyDetectorAreaR250";
+			atlOffset=3.8146973e-06;
+		};
+		class Item190
+		{
+			dataType="Trigger";
+			position[]={6084.1362,40.861263,3157.1709};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_8";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=877;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item191
+		{
+			dataType="Trigger";
+			position[]={4993.104,72.690002,3991.9751};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_9";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=878;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item192
+		{
+			dataType="Trigger";
+			position[]={5651.3647,78.360687,4001.2236};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_10";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=879;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item193
+		{
+			dataType="Trigger";
+			position[]={6243.835,74.623817,3642.3057};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_11";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=880;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item194
+		{
+			dataType="Trigger";
+			position[]={7363.1924,29.149515,3885.4102};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_12";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=881;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item195
+		{
+			dataType="Trigger";
+			position[]={7709.2749,16.540548,3529.9634};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_13";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=882;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item196
+		{
+			dataType="Trigger";
+			position[]={7998.7559,33.282906,3167.8232};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_14";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=883;
+			type="EmptyDetectorAreaR250";
+			atlOffset=3.8146973e-06;
+		};
+		class Item197
+		{
+			dataType="Trigger";
+			position[]={8374.7363,30.463911,3313.1411};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_15";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=884;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item198
+		{
+			dataType="Trigger";
+			position[]={8156.0396,48.032455,3845.9121};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_16";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=885;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item199
+		{
+			dataType="Trigger";
+			position[]={7725.8545,35.709999,4149.2329};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_17";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=886;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item200
+		{
+			dataType="Trigger";
+			position[]={7526.252,37.683582,4747.2583};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_18";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=887;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item201
+		{
+			dataType="Trigger";
+			position[]={8201.5313,10.704929,5744.7783};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_19";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=888;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item202
+		{
+			dataType="Trigger";
+			position[]={6542.9482,114.01959,5349.0879};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_20";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=889;
+			type="EmptyDetectorAreaR250";
+			atlOffset=7.6293945e-06;
+		};
+		class Item203
+		{
+			dataType="Trigger";
+			position[]={7068.9556,73.235527,6052.8013};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_21";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=890;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item204
+		{
+			dataType="Trigger";
+			position[]={6604.5527,157.80537,5965.1343};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_22";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=891;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item205
+		{
+			dataType="Trigger";
+			position[]={7379.3486,35.476585,5856.1401};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_23";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=892;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item206
+		{
+			dataType="Trigger";
+			position[]={7526.2515,27.366875,6422.4292};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_24";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=893;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item207
+		{
+			dataType="Trigger";
+			position[]={7022.8154,92.05938,6929.3882};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_25";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=894;
+			type="EmptyDetectorAreaR250";
+			atlOffset=7.6293945e-06;
+		};
+		class Item208
+		{
+			dataType="Trigger";
+			position[]={7873.8667,190.49443,7449.1382};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_26";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=895;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item209
+		{
+			dataType="Trigger";
+			position[]={8136.7056,202.59645,7741.7334};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_27";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=896;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-1.5258789e-05;
+		};
+		class Item210
+		{
+			dataType="Trigger";
+			position[]={7187.8384,167.14568,7911.999};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_28";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=897;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item211
+		{
+			dataType="Trigger";
+			position[]={6739.8545,116.32369,7450.79};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_29";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=898;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item212
+		{
+			dataType="Trigger";
+			position[]={6108.7456,191.08998,7373.5811};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_30";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=899;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item213
+		{
+			dataType="Trigger";
+			position[]={6758.1406,165.19684,8228.8975};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_31";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=900;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item214
+		{
+			dataType="Trigger";
+			position[]={6358.5825,360.09436,4813.2031};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_32";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=901;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item215
+		{
+			dataType="Trigger";
+			position[]={4554.6538,36.775394,4013.6201};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_33";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=902;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item216
+		{
+			dataType="Trigger";
+			position[]={5066.3486,87.085228,4631.584};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_34";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=903;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item217
+		{
+			dataType="Trigger";
+			position[]={7559.0884,187.66214,7671.311};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_35";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=905;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item218
+		{
+			dataType="Trigger";
+			position[]={4522.3696,61.934067,3421.1201};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_36";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=906;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item219
+		{
+			dataType="Trigger";
+			position[]={5028.9204,41.440037,3091.9824};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_37";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=907;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item220
+		{
+			dataType="Trigger";
+			position[]={6782.0225,139.73277,6589.0142};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_38";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=908;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item221
+		{
+			dataType="Trigger";
+			position[]={6845.8105,75.33773,3704.6938};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_39";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=909;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-7.6293945e-06;
+		};
+		class Item222
+		{
+			dataType="Trigger";
+			position[]={5111.731,40.750881,2921.5598};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=910;
+			type="EmptyDetector";
+		};
+		class Item223
+		{
+			dataType="Trigger";
+			position[]={5376.1685,43.291107,2820.2271};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_1";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=911;
+			type="EmptyDetector";
+			atlOffset=0.13367844;
+		};
+		class Item224
+		{
+			dataType="Trigger";
+			position[]={5653.1274,30.829836,2556.3591};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_3";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=913;
+			type="EmptyDetector";
+		};
+		class Item225
+		{
+			dataType="Trigger";
+			position[]={4998.7192,48.815784,3294.8508};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_5";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=921;
+			type="EmptyDetector";
+		};
+		class Item226
+		{
+			dataType="Trigger";
+			position[]={5375.3867,69.669441,3561.3677};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_6";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=922;
+			type="EmptyDetector";
+		};
+		class Item227
+		{
+			dataType="Trigger";
+			position[]={5709.1089,58.631657,3536.4136};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_7";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=923;
+			type="EmptyDetector";
+		};
+		class Item228
+		{
+			dataType="Trigger";
+			position[]={6048.854,55.451202,3529.2922};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_8";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=924;
+			type="EmptyDetector";
+		};
+		class Item229
+		{
+			dataType="Trigger";
+			position[]={6254.8862,70.730896,3534.7573};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_9";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=925;
+			type="EmptyDetector";
+		};
+		class Item230
+		{
+			dataType="Trigger";
+			position[]={6625.5942,82.779526,3533.8594};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_10";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=926;
+			type="EmptyDetector";
+		};
+		class Item231
+		{
+			dataType="Trigger";
+			position[]={7404.123,22.213928,3750.1792};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_11";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=927;
+			type="EmptyDetector";
+		};
+		class Item232
+		{
+			dataType="Trigger";
+			position[]={7580.958,26.653364,3811.3694};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_12";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=928;
+			type="EmptyDetector";
+		};
+		class Item233
+		{
+			dataType="Trigger";
+			position[]={7684.2505,10.902426,3502.6116};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_13";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=929;
+			type="EmptyDetector";
+		};
+		class Item234
+		{
+			dataType="Trigger";
+			position[]={7925.2173,11.012195,3065.2444};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_14";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=930;
+			type="EmptyDetector";
+		};
+		class Item235
+		{
+			dataType="Trigger";
+			position[]={8253.5596,28.948717,3315.8447};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_15";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=931;
+			type="EmptyDetector";
+		};
+		class Item236
+		{
+			dataType="Trigger";
+			position[]={8240.752,48.211712,3589.634};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_16";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=932;
+			type="EmptyDetector";
+		};
+		class Item237
+		{
+			dataType="Trigger";
+			position[]={7853.9336,35.145199,4218.1094};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_17";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=933;
+			type="EmptyDetector";
+		};
+		class Item238
+		{
+			dataType="Trigger";
+			position[]={7542.8735,31.776014,4905.7168};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_18";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=934;
+			type="EmptyDetector";
+		};
+		class Item239
+		{
+			dataType="Trigger";
+			position[]={7121.7773,58.974827,5749.1914};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_19";
+				condition="(LSgr == 1) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=935;
+			type="EmptyDetector";
+		};
+		class Item240
+		{
+			dataType="Trigger";
+			position[]={7095.2241,74.150505,5859.4268};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_20";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=936;
+			type="EmptyDetector";
+			atlOffset=0.044998169;
+		};
+		class Item241
+		{
+			dataType="Trigger";
+			position[]={7076.1992,83.745392,6299.8018};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_21";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=943;
+			type="EmptyDetector";
+		};
+		class Item242
+		{
+			dataType="Trigger";
+			position[]={7028.7993,99.31575,6782.1992};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_22";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=944;
+			type="EmptyDetector";
+		};
+		class Item243
+		{
+			dataType="Trigger";
+			position[]={6919.4238,86.766144,7183.0854};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_23";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=945;
+			type="EmptyDetector";
+		};
+		class Item244
+		{
+			dataType="Trigger";
+			position[]={7062.0591,82.3358,7244.9087};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_24";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=946;
+			type="EmptyDetector";
+		};
+		class Item245
+		{
+			dataType="Trigger";
+			position[]={7125.9536,165.74535,7718.6309};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_25";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=947;
+			type="EmptyDetector";
+		};
+		class Item246
+		{
+			dataType="Trigger";
+			position[]={7233.3589,166.53844,8227.0107};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_26";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=948;
+			type="EmptyDetector";
+		};
+		class Item247
+		{
+			dataType="Trigger";
+			position[]={7548.4209,187.45811,7877.2871};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_27";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=949;
+			type="EmptyDetector";
+		};
+		class Item248
+		{
+			dataType="Trigger";
+			position[]={3705.7012,12.098351,3104.2026};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_40";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=951;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-9.5367432e-07;
+		};
+		class Item249
+		{
+			dataType="Trigger";
+			position[]={3513.7256,55.684376,3620.4868};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_41";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=952;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item250
+		{
+			dataType="Trigger";
+			position[]={3834.4182,70.054771,4738.165};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_42";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=953;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item251
+		{
+			dataType="Trigger";
+			position[]={3172.6113,179.86757,5291.958};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_43";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=954;
+			type="EmptyDetectorAreaR250";
+			atlOffset=1.5258789e-05;
+		};
+		class Item252
+		{
+			dataType="Trigger";
+			position[]={1738.7822,26.540703,4625.9717};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_44";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=955;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item253
+		{
+			dataType="Trigger";
+			position[]={2484.6023,167.17673,5132.522};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_45";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=956;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item254
+		{
+			dataType="Trigger";
+			position[]={3017.2783,230.68486,5658.0142};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_46";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=957;
+			type="EmptyDetectorAreaR250";
+			atlOffset=1.5258789e-05;
+		};
+		class Item255
+		{
+			dataType="Trigger";
+			position[]={2569.5532,176.31326,5558.4868};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_47";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=958;
+			type="EmptyDetectorAreaR250";
+			atlOffset=1.5258789e-05;
+		};
+		class Item256
+		{
+			dataType="Trigger";
+			position[]={3032.7754,220.16287,6245.5278};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_48";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=959;
+			type="EmptyDetectorAreaR250";
+			atlOffset=1.5258789e-05;
+		};
+		class Item257
+		{
+			dataType="Trigger";
+			position[]={3176.2434,224.19623,6392.041};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_49";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=960;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item258
+		{
+			dataType="Trigger";
+			position[]={3563.1423,270.06186,6248.3032};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_50";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=961;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item259
+		{
+			dataType="Trigger";
+			position[]={4196.6045,383.31958,6438.3892};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_51";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=962;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item260
+		{
+			dataType="Trigger";
+			position[]={4785.6665,408.73349,6612.6372};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_52";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=963;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item261
+		{
+			dataType="Trigger";
+			position[]={4115.9004,399.9993,6854.9731};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_53";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=964;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item262
+		{
+			dataType="Trigger";
+			position[]={3097.4824,230.95308,6806.8789};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_54";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=965;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.57899475;
+		};
+		class Item263
+		{
+			dataType="Trigger";
+			position[]={3227.4297,194.96059,7229.3193};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_55";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=966;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item264
+		{
+			dataType="Trigger";
+			position[]={3353.9521,132.3643,4843.2178};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_56";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=968;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item265
+		{
+			dataType="Trigger";
+			position[]={4653.0391,404.33109,7289.0483};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_57";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=969;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item266
+		{
+			dataType="Trigger";
+			position[]={3464.1831,124.37212,8409.1338};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_58";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=970;
+			type="EmptyDetectorAreaR250";
+			atlOffset=7.6293945e-06;
+		};
+		class Item267
+		{
+			dataType="Trigger";
+			position[]={4506.0664,379.41501,8214.1143};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_59";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=971;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item268
+		{
+			dataType="Trigger";
+			position[]={4097.3276,312.90088,7917.5776};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_60";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=972;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-3.0517578e-05;
+		};
+		class Item269
+		{
+			dataType="Trigger";
+			position[]={5071.394,60.005981,3770.5642};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_2";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=973;
+			type="EmptyDetector";
+		};
+		class Item270
+		{
+			dataType="Trigger";
+			position[]={4434.9585,35.526199,4144.1597};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_4";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=974;
+			type="EmptyDetector";
+		};
+		class Item271
+		{
+			dataType="Trigger";
+			position[]={4053.0977,57.534973,4426.8364};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_28";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=975;
+			type="EmptyDetector";
+		};
+		class Item272
+		{
+			dataType="Trigger";
+			position[]={3594.4465,82.556465,4994.501};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_29";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=976;
+			type="EmptyDetector";
+		};
+		class Item273
+		{
+			dataType="Trigger";
+			position[]={3190.9194,185.67261,5424.8467};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_30";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=977;
+			type="EmptyDetector";
+		};
+		class Item274
+		{
+			dataType="Trigger";
+			position[]={2758.678,206.78278,5629.5137};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_31";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=978;
+			type="EmptyDetector";
+		};
+		class Item275
+		{
+			dataType="Trigger";
+			position[]={2999.7339,208.78494,6055.8433};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_32";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=986;
+			type="EmptyDetector";
+		};
+		class Item276
+		{
+			dataType="Trigger";
+			position[]={3079.7866,224.38,6344.3159};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_33";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=987;
+			type="EmptyDetector";
+		};
+		class Item277
+		{
+			dataType="Trigger";
+			position[]={3267.9919,225.40573,6288.0532};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_34";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=988;
+			type="EmptyDetector";
+		};
+		class Item278
+		{
+			dataType="Trigger";
+			position[]={3555.1575,282.05356,6376.9624};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_35";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=989;
+			type="EmptyDetector";
+		};
+		class Item279
+		{
+			dataType="Trigger";
+			position[]={3132.2871,229.55447,6806.0791};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_36";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=990;
+			type="EmptyDetector";
+		};
+		class Item280
+		{
+			dataType="Trigger";
+			position[]={4077.9241,369.25787,6391.3887};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_37";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=991;
+			type="EmptyDetector";
+		};
+		class Item281
+		{
+			dataType="Trigger";
+			position[]={4653.2217,411.86664,6594.002};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_38";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=992;
+			type="EmptyDetector";
+		};
+		class Item282
+		{
+			dataType="Trigger";
+			position[]={6991.0913,128.34413,9108.7568};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_39";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=993;
+			type="EmptyDetector";
+		};
+		class Item283
+		{
+			dataType="Trigger";
+			position[]={3604.5608,129.34286,8493.3838};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_40";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=994;
+			type="EmptyDetector";
+		};
+		class Item284
+		{
+			dataType="Trigger";
+			position[]={3724.2039,341.19839,6522.603};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_41";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=995;
+			type="EmptyDetector";
+		};
+		class Item285
+		{
+			dataType="Trigger";
+			position[]={3083.1775,13.838614,8415.1104};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_42";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=996;
+			type="EmptyDetector";
+			atlOffset=9.5367432e-07;
+		};
+		class Item286
+		{
+			dataType="Trigger";
+			position[]={8076.1382,29.985331,10343.29};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_61";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=997;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item287
+		{
+			dataType="Trigger";
+			position[]={8146.4902,29.84329,9812.7656};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_62";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=998;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item288
+		{
+			dataType="Trigger";
+			position[]={7446.2261,28.85,10590.026};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_63";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=999;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item289
+		{
+			dataType="Trigger";
+			position[]={5868.5449,153.71725,10553.662};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_64";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1000;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item290
+		{
+			dataType="Trigger";
+			position[]={6377.373,117.89066,10572.301};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_65";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1001;
+			type="EmptyDetectorAreaR250";
+			atlOffset=7.6293945e-06;
+		};
+		class Item291
+		{
+			dataType="Trigger";
+			position[]={7166.8027,105.71334,8993.9473};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_66";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1002;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.43334198;
+		};
+		class Item292
+		{
+			dataType="Trigger";
+			position[]={6682.6948,108.17287,8853.5039};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_67";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1003;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-7.6293945e-06;
+		};
+		class Item293
+		{
+			dataType="Trigger";
+			position[]={5995.3496,125.28159,8595.1543};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_68";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1004;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.16159058;
+		};
+		class Item294
+		{
+			dataType="Trigger";
+			position[]={6395.6084,112.44062,8900.1123};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_69";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1005;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item295
+		{
+			dataType="Trigger";
+			position[]={5190.1201,344.14438,8937.3311};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_70";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1006;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item296
+		{
+			dataType="Trigger";
+			position[]={4960.3721,376.43851,8531.2627};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_71";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1007;
+			type="EmptyDetectorAreaR250";
+			atlOffset=3.0517578e-05;
+		};
+		class Item297
+		{
+			dataType="Trigger";
+			position[]={5566.7188,336.13443,6971.7051};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_72";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1008;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.16900635;
+		};
+		class Item298
+		{
+			dataType="Trigger";
+			position[]={4898.9912,405.70654,6694.291};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_73";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1009;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item299
+		{
+			dataType="Trigger";
+			position[]={5475.0469,366.31271,7822.4766};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_74";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1010;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item300
+		{
+			dataType="Trigger";
+			position[]={5939.7793,174.66078,10042.082};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_75";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1011;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item301
+		{
+			dataType="Trigger";
+			position[]={7694.1499,55.778755,9055.2393};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_76";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1013;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item302
+		{
+			dataType="Trigger";
+			position[]={7386.6162,85.716232,8669.5801};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_77";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1014;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item303
+		{
+			dataType="Trigger";
+			position[]={5439.6016,268.16113,8530.6982};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_78";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1015;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.41485596;
+		};
+		class Item304
+		{
+			dataType="Trigger";
+			position[]={6330.9473,157.56334,8363.4971};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_79";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1016;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item305
+		{
+			dataType="Trigger";
+			position[]={6508.0186,182.06422,9248.9121};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_80";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1017;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item306
+		{
+			dataType="Trigger";
+			position[]={3905.2043,368.49628,7614.8438};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_81";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1018;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item307
+		{
+			dataType="Trigger";
+			position[]={4636.3687,382.26474,7780.2178};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_82";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1019;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item308
+		{
+			dataType="Trigger";
+			position[]={7079.625,125.62086,9967.6318};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_83";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1020;
+			type="EmptyDetectorAreaR250";
+			atlOffset=0.059562683;
+		};
+		class Item309
+		{
+			dataType="Trigger";
+			position[]={4011.0059,34.968498,4078.804};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_84";
+				condition="LSgr == 1";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1021;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item310
+		{
+			dataType="Trigger";
+			position[]={5934.8257,179.84192,9182.627};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_85";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1022;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item311
+		{
+			dataType="Trigger";
+			position[]={6084.6714,167.71678,9657.1133};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_86";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1023;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item312
+		{
+			dataType="Trigger";
+			position[]={5440.5825,167.16249,10287.74};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_87";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1024;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item313
+		{
+			dataType="Trigger";
+			position[]={6433.0674,193.57079,7856.127};
+			class Attributes
+			{
+				name="MyLootSpawnTrigger_88";
+				condition="(LSgr == 2) || (LSgr == 3)";
+				onActivation="0=[thisTrigger] call LootSpawnRandomizer;";
+				sizeA=300;
+				sizeB=300;
+			};
+			id=1025;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item314
+		{
+			dataType="Trigger";
+			position[]={7069.187,94.617325,7321.9385};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_43";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1027;
+			type="EmptyDetector";
+		};
+		class Item315
+		{
+			dataType="Trigger";
+			position[]={7949.8521,30.193453,9841.5928};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_46";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1032;
+			type="EmptyDetector";
+		};
+		class Item316
+		{
+			dataType="Trigger";
+			position[]={7924.3257,30.552845,10616.057};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_47";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1033;
+			type="EmptyDetector";
+		};
+		class Item317
+		{
+			dataType="Trigger";
+			position[]={8201.0752,28.77,10341.8};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_48";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1034;
+			type="EmptyDetector";
+		};
+		class Item318
+		{
+			dataType="Trigger";
+			position[]={8275.5566,28.879999,10138.635};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_49";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1035;
+			type="EmptyDetector";
+		};
+		class Item319
+		{
+			dataType="Trigger";
+			position[]={8004.4897,29.852959,10076.958};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_50";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1036;
+			type="EmptyDetector";
+		};
+		class Item320
+		{
+			dataType="Trigger";
+			position[]={8104.6768,32.189999,9398.0313};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_52";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1038;
+			type="EmptyDetector";
+		};
+		class Item321
+		{
+			dataType="Trigger";
+			position[]={6638.3257,193.38937,9291.3057};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_53";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1039;
+			type="EmptyDetector";
+		};
+		class Item322
+		{
+			dataType="Trigger";
+			position[]={5521.9536,305.62326,9355.9902};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_55";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1041;
+			type="EmptyDetector";
+		};
+		class Item323
+		{
+			dataType="Trigger";
+			position[]={5125.0938,350.77887,9048.541};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_56";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1042;
+			type="EmptyDetector";
+			atlOffset=0.035614014;
+		};
+		class Item324
+		{
+			dataType="Trigger";
+			position[]={4872.3276,384.5491,8544.0586};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_57";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1043;
+			type="EmptyDetector";
+		};
+		class Item325
+		{
+			dataType="Trigger";
+			position[]={4976.3066,410.50244,7614.7241};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_58";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1044;
+			type="EmptyDetector";
+		};
+		class Item326
+		{
+			dataType="Trigger";
+			position[]={3913.7927,173.14014,8237.085};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_59";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1045;
+			type="EmptyDetector";
+			atlOffset=0.0025634766;
+		};
+		class Item327
+		{
+			dataType="Trigger";
+			position[]={4346.0996,337.77505,7748.4458};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_61";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1047;
+			type="EmptyDetector";
+			atlOffset=-0.0035705566;
+		};
+		class Item328
+		{
+			dataType="Trigger";
+			position[]={4653.7134,376.89288,7507.2905};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_62";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1048;
+			type="EmptyDetector";
+			atlOffset=0.013641357;
+		};
+		class Item329
+		{
+			dataType="Trigger";
+			position[]={6182.1582,177.23904,7429.7793};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_63";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1049;
+			type="EmptyDetector";
+			atlOffset=-0.094589233;
+		};
+		class Item330
+		{
+			dataType="Trigger";
+			position[]={6003.6401,233.9207,7190.6328};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_64";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1050;
+			type="EmptyDetector";
+		};
+		class Item331
+		{
+			dataType="Trigger";
+			position[]={5781.1934,320.556,6915.7393};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_65";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1051;
+			type="EmptyDetector";
+		};
+		class Item332
+		{
+			dataType="Trigger";
+			position[]={6615.9414,129.49852,7435.5425};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_66";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1052;
+			type="EmptyDetector";
+			atlOffset=-0.065567017;
+		};
+		class Item333
+		{
+			dataType="Trigger";
+			position[]={7041.8784,151.64131,7623.877};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_67";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1053;
+			type="EmptyDetector";
+			atlOffset=0.13594055;
+		};
+		class Item334
+		{
+			dataType="Trigger";
+			position[]={6229.8057,177.36726,9309.709};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_68";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1054;
+			type="EmptyDetector";
+		};
+		class Item335
+		{
+			dataType="Trigger";
+			position[]={6968.2158,52.733788,10851.92};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_69";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1055;
+			type="EmptyDetector";
+			atlOffset=-0.037166595;
+		};
+		class Item336
+		{
+			dataType="Trigger";
+			position[]={6144.7725,123.21233,8666.0566};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_45";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1056;
+			type="EmptyDetector";
+		};
+		class Item337
+		{
+			dataType="Trigger";
+			position[]={5524.436,183.62936,8709.6563};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_70";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1057;
+			type="EmptyDetector";
+		};
+		class Item338
+		{
+			dataType="Trigger";
+			position[]={5695.5977,334.87018,6963.813};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_71";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1060;
+			type="EmptyDetector";
+		};
+		class Item339
+		{
+			dataType="Trigger";
+			position[]={5428.7246,338.2677,6977.2568};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_72";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1061;
+			type="EmptyDetector";
+		};
+		class Item340
+		{
+			dataType="Trigger";
+			position[]={4703.9385,412.90897,6686.5767};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_44";
+				condition="(LSgr == 1) || (LSgr == 2)";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1062;
+			type="EmptyDetector";
+		};
+		class Item341
+		{
+			dataType="Trigger";
+			position[]={4836.6587,417.34576,8160.1206};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_60";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1063;
+			type="EmptyDetector";
+		};
+		class Item342
+		{
+			dataType="Trigger";
+			position[]={4997.9346,416.06433,7819.9731};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_73";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1064;
+			type="EmptyDetector";
+		};
+		class Item343
+		{
+			dataType="Trigger";
+			position[]={6337.938,115.68293,8720.3652};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_51";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1065;
+			type="EmptyDetector";
+		};
+		class Item344
+		{
+			dataType="Trigger";
+			position[]={6779.2524,108.3634,8817.5762};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_54";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1066;
+			type="EmptyDetector";
+		};
+		class Item345
+		{
+			dataType="Trigger";
+			position[]={7262.5991,91.421768,8863.0459};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_74";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1067;
+			type="EmptyDetector";
+		};
+		class Item346
+		{
+			dataType="Trigger";
+			position[]={7034.6792,114.79411,9046.0557};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_75";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1068;
+			type="EmptyDetector";
+			atlOffset=7.6293945e-06;
+		};
+		class Item347
+		{
+			dataType="Trigger";
+			position[]={7015.5923,103.8798,8881.5723};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_76";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1069;
+			type="EmptyDetector";
+		};
+		class Item348
+		{
+			dataType="Trigger";
+			position[]={7270.5435,167.55847,7887.3091};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_77";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1070;
+			type="EmptyDetector";
+		};
+		class Item349
+		{
+			dataType="Trigger";
+			position[]={7113.9834,165.73766,7972.9805};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_78";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1071;
+			type="EmptyDetector";
+		};
+		class Item350
+		{
+			dataType="Trigger";
+			position[]={7021.582,81.85498,7018.9849};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_79";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1072;
+			type="EmptyDetector";
+		};
+		class Item351
+		{
+			dataType="Trigger";
+			position[]={7162.9717,72.712494,7127.0835};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_80";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1073;
+			type="EmptyDetector";
+		};
+		class Item352
+		{
+			dataType="Trigger";
+			position[]={7112.7944,72.363396,5951.6831};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_81";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1074;
+			type="EmptyDetector";
+		};
+		class Item353
+		{
+			dataType="Trigger";
+			position[]={7034.3882,77.728539,6065.5088};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_82";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1075;
+			type="EmptyDetector";
+		};
+		class Item354
+		{
+			dataType="Trigger";
+			position[]={4570.8311,413.74185,6488.1074};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_83";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1076;
+			type="EmptyDetector";
+		};
+		class Item355
+		{
+			dataType="Trigger";
+			position[]={5660.8896,168.09886,8589.542};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_84";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1077;
+			type="EmptyDetector";
+		};
+		class Item356
+		{
+			dataType="Trigger";
+			position[]={5005.4575,361.6105,8600.5596};
+			class Attributes
+			{
+				name="MyCarSpawnTrigger_85";
+				condition="LSgr == 2";
+				onActivation="0=[thisTrigger] call myfuncCS;";
+				sizeA=0;
+				sizeB=0;
+			};
+			id=1078;
+			type="EmptyDetector";
+		};
+		class Item357
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={459.12646,717.29126,496.94998};
+			};
+			side="Independent";
+			flags=2;
+			class Attributes
+			{
+				lock="LOCKED";
+				name="dropPlane1";
+				textures="USMCGrey";
+			};
+			id=1210;
+			type="CUP_B_C130J_USMC";
+			atlOffset=780.83301;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item358
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11347.462,789.14148,1213.8057};
+			};
+			side="Independent";
+			flags=2;
+			class Attributes
+			{
+				name="dropPlane3";
+			};
+			id=1214;
+			type="CUP_B_C130J_USMC";
+			atlOffset=810.08099;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item359
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11807.559,720.85156,12194.804};
+			};
+			side="Independent";
+			flags=2;
+			class Attributes
+			{
+				name="dropPlane2";
+				textures="USMCGrey";
+			};
+			id=1218;
+			type="CUP_B_C130J_USMC";
+			atlOffset=797;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item360
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={459.548,711.68713,496.34799};
+					};
+					side="Independent";
+					flags=3;
+					class Attributes
+					{
+						name="dropPilot3";
+					};
+					id=1302;
+					type="I_helicrew_F";
+					atlOffset=780.83301;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+				combatMode="BLUE";
+				behaviour="CARELESS";
+				speedMode="LIMITED";
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=1;
+				};
+				class Links
+				{
+					items=1;
+					class Item0
+					{
+						linkID=0;
+						item0=1302;
+						item1=1210;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=1301;
+			atlOffset=780.83301;
+		};
+		class Item361
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10108.69,4.0351896,2224.021};
+						angles[]={0,1.2255876,0};
+					};
+					side="Civilian";
+					flags=3;
+					class Attributes
+					{
+						isPlayer=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="CUP_I_B_PMC_Unit_14";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+						};
+					};
+					id=1306;
+					type="C_man_polo_2_F";
+					atlOffset=0.55103874;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="WhiteHead_18";
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1305;
+			atlOffset=0.55103874;
+		};
+		class Item362
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10173.195,-1.5213653,2232.188};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1326;
+			type="Land_Pier_F";
+			atlOffset=0.62285411;
+		};
+		class Item363
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10214.81,-1.5057225,2232.2476};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1328;
+			type="Land_Pier_F";
+			atlOffset=2.9999027;
+		};
+		class Item364
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10208.394,17.804588,2187.9714};
+				angles[]={0,2.4671659,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1335;
+			type="Land_Airport_Tower_F";
+			atlOffset=9.5367432e-07;
+		};
+		class Item365
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10140.561,-1.6129522,2257.9126};
+				angles[]={0,1.4905488,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1336;
+			type="Land_Pier_F";
+			atlOffset=1.0384834;
+		};
+		class Item366
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10151.025,-1.5605103,2258.396};
+				angles[]={0,4.6404071,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1337;
+			type="Land_Pier_F";
+			atlOffset=1.5528072;
+		};
+		class Item367
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10137.904,3.1941953,2223.2942};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1340;
+			type="PortableHelipadLight_01_green_F";
+			atlOffset=2.1890421;
+		};
+		class Item368
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10145.484,3.1717894,2222.9338};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1341;
+			type="Land_PortableHelipadLight_01_F";
+			atlOffset=2.175595;
+		};
+		class Item369
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10156.99,3.2230313,2223.0786};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1343;
+			type="Land_PortableHelipadLight_01_F";
+			atlOffset=2.3729186;
+		};
+		class Item370
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10165.68,3.2235804,2222.7827};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1344;
+			type="Land_PortableHelipadLight_01_F";
+			atlOffset=2.3337674;
+		};
+		class Item371
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10173.341,3.2235351,2222.8276};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1345;
+			type="Land_PortableHelipadLight_01_F";
+			atlOffset=2.376158;
+		};
+		class Item372
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10179.668,3.2189584,2225.6125};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1346;
+			type="Land_PortableHelipadLight_01_F";
+		};
+		class Item373
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10193.128,3.2230127,2222.8237};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1347;
+			type="Land_PortableHelipadLight_01_F";
+			atlOffset=2.5610299;
+		};
+		class Item374
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10112.124,3.0093341,2265.0813};
+				angles[]={0.12415794,5.736053,5.9976106};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1357;
+			type="Land_Wreck_Plane_Transport_01_F";
+			atlOffset=-1.8289623;
+		};
+		class Item375
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10108.633,8.8654385,2209.064};
+				angles[]={0,3.6474307,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1359;
+			type="Land_Hangar_F";
+			atlOffset=1.0789964;
+		};
+		class Item376
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10203.257,3.2381468,2223.4836};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1360;
+			type="Land_PortableHelipadLight_01_F";
+		};
+		class Item377
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10214.451,3.2389956,2222.9922};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1361;
+			type="Land_PortableHelipadLight_01_F";
+		};
+		class Item378
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10222.766,3.2388673,2223.0874};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1362;
+			type="Land_PortableHelipadLight_01_F";
+		};
+		class Item379
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10126.125,1.1501217,2239.7102};
+				angles[]={6.188272,0,6.2559919};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1367;
+			type="Land_Hammer_F";
+			atlOffset=1.9431114e-05;
+		};
+		class Item380
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10131.634,-1.5419345,2232.1785};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1327;
+			type="Land_Pier_F";
+			atlOffset=5.9604645e-08;
+		};
+		class Item381
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10189.856,5.8290911,2217.3931};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1378;
+			type="Land_u_Barracks_V2_F";
+			atlOffset=2.6259263;
+		};
+		class Item382
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10127.089,3.3209281,2252.325};
+				angles[]={0,1.5371748,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1381;
+			type="Land_Barracks_01_camo_F";
+			atlOffset=1.6075053;
+		};
+		class Item383
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10293.158,9.8269053,2271.1858};
+				angles[]={0,1.5383801,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+			};
+			id=1393;
+			type="CUP_B_Frigate_ANZAC";
+			atlOffset=3.2270222;
+		};
+		class Item384
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10131.592,2.0396507,2212.1064};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1399;
+			type="Land_Wall_IndCnc_2deco_F";
+		};
+		class Item385
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10134.195,1.9521849,2210.4146};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1400;
+			type="Land_Wall_IndCnc_2deco_F";
+		};
+		class Item386
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10136.931,1.8602843,2208.9631};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1401;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=5.9604645e-08;
+		};
+		class Item387
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10139.535,1.9176421,2207.2053};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1402;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=5.9604645e-08;
+		};
+		class Item388
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10142.347,2.0233519,2205.9094};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1403;
+			type="Land_Wall_IndCnc_2deco_F";
+		};
+		class Item389
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10144.907,2.1196525,2204.5076};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1404;
+			type="Land_Wall_IndCnc_2deco_F";
+		};
+		class Item390
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10147.584,2.1844144,2203.1636};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1405;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=-1.1920929e-07;
+		};
+		class Item391
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10150.395,2.2557433,2201.3052};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1406;
+			type="Land_Wall_IndCnc_2deco_F";
+		};
+		class Item392
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10153.163,2.3720043,2199.9167};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1407;
+			type="Land_Wall_IndCnc_2deco_F";
+		};
+		class Item393
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10156.093,2.4758677,2198.3555};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1408;
+			type="Land_Wall_IndCnc_2deco_F";
+		};
+		class Item394
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10159.094,2.5135565,2198.9031};
+				angles[]={0,2.8057582,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1409;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=1.1920929e-07;
+		};
+		class Item395
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10174.147,2.7519729,2242.6799};
+				angles[]={0,6.2498064,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1411;
+			type="Land_Barracks_01_camo_F";
+			atlOffset=3.687727;
+		};
+		class Item396
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10130.531,2.0935864,2213.4534};
+				angles[]={0,3.6056201,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1412;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=1.1920929e-07;
+		};
+		class Item397
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10110.127,4.0842686,2235.6228};
+				angles[]={0,5.4413152,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1413;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=-2.3841858e-07;
+		};
+		class Item398
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10113.117,4.069869,2237.1162};
+				angles[]={0,6.1445642,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1414;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=2.3841858e-07;
+		};
+		class Item399
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10117.208,4.0700874,2236.9866};
+				angles[]={0,6.2253909,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1415;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=1.1311202;
+		};
+		class Item400
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10120.507,4.069171,2237.53};
+				angles[]={0,2.8450015,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1416;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=2.3841858e-07;
+		};
+		class Item401
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10111.604,5.0016451,2192.7007};
+				angles[]={0,3.177906,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1424;
+			type="MapBoard_stratis_F";
+			atlOffset=0.55005169;
+		};
+		class Item402
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10113.662,4.0334363,2197.229};
+				angles[]={0,0.38354748,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1425;
+			type="Land_ChairWood_F";
+			atlOffset=0.55138111;
+		};
+		class Item403
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10112.868,4.031302,2197.5808};
+				angles[]={0,0.38354748,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1426;
+			type="Land_ChairWood_F";
+			atlOffset=0.54924679;
+		};
+		class Item404
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10112.188,4.0310564,2197.5063};
+				angles[]={0,0.38354748,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1427;
+			type="Land_ChairWood_F";
+			atlOffset=0.54900122;
+		};
+		class Item405
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10111.598,4.0310564,2197.9465};
+				angles[]={0,0.38354748,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1430;
+			type="Land_ChairWood_F";
+			atlOffset=0.54900122;
+		};
+		class Item406
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10162.15,2.5350823,2199.9878};
+				angles[]={0,2.8057582,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1432;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=1.1920929e-07;
+		};
+		class Item407
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10165.126,2.5058718,2201.5403};
+				angles[]={0,2.8057582,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1433;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=1.1920929e-07;
+		};
+		class Item408
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10167.509,2.4257374,2203.6062};
+				angles[]={0,5.3096747,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1434;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=-1.1920929e-07;
+		};
+		class Item409
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10169.067,2.1815062,2207.1204};
+				angles[]={0,5.3096747,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1435;
+			type="Land_Wall_IndCnc_2deco_F";
+		};
+		class Item410
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10170.588,1.8614953,2210.2217};
+				angles[]={0,5.3096747,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1436;
+			type="Land_Wall_IndCnc_2deco_F";
+		};
+		class Item411
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10172.1,1.6281796,2212.667};
+				angles[]={0,5.3096747,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1437;
+			type="Land_Wall_IndCnc_2deco_F";
+			atlOffset=5.9604645e-08;
+		};
+		class Item412
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10142.646,24.090553,2301.8535};
+				angles[]={0,1.5094368,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1438;
+			type="Land_MultistoryBuilding_01_F";
+			atlOffset=4.9551444;
+		};
+		class Item413
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10197.126,3.8598199,2239.6089};
+				angles[]={0,6.2366271,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1442;
+			type="Land_Cargo_House_V1_F";
+			atlOffset=5.1159916;
+		};
+		class Item414
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10270.819,14.770016,2225.9712};
+				angles[]={0,4.9183102,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1443;
+			type="Land_LightHouse_F";
+			atlOffset=4.7683716e-07;
+		};
+		class Item415
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10156.62,14.48147,2194.8921};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1444;
+			type="Land_Cargo_Tower_V1_No5_F";
+		};
+		class Item416
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10149.01,1.3526856,2269.7332};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1446;
+			type="Land_Cargo10_brick_red_F";
+			atlOffset=1.2607373;
+		};
+		class Item417
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10268.46,26.510115,2253.686};
+				angles[]={0,1.5928279,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1448;
+			type="Land_MobileCrane_01_F";
+			atlOffset=10.107548;
+		};
+		class Item418
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10214.937,-1.4432473,2242.738};
+				angles[]={0,3.1606655,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1449;
+			type="Land_Pier_F";
+			atlOffset=3.4233248;
+		};
+		class Item419
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10239.438,26.491743,2254.2483};
+				angles[]={0,1.5928279,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1450;
+			type="Land_MobileCrane_01_F";
+			atlOffset=7.5383253;
+		};
+		class Item420
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10256.454,-1.376151,2232.2146};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1451;
+			type="Land_Pier_F";
+			atlOffset=5.1071706;
+		};
+		class Item421
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10256.573,-1.3680079,2241.6951};
+				angles[]={0,3.1623335,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1452;
+			type="Land_Pier_F";
+			atlOffset=5.9199343;
+		};
+		class Item422
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10247.038,6.1138611,2217.5686};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1453;
+			type="Land_u_Barracks_V2_F";
+			atlOffset=5.8202901;
+		};
+		class Item423
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10238.221,4.5732512,2230.2368};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1455;
+			type="Land_Cargo40_light_blue_F";
+			atlOffset=6.0807977;
+		};
+		class Item424
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10249.535,4.5669818,2233.1956};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1456;
+			type="Land_Cargo40_sand_F";
+			atlOffset=6.9500084;
+		};
+		class Item425
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10258.623,4.5710168,2225.9597};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1457;
+			type="Land_Cargo20_brick_red_F";
+			atlOffset=7.0328321;
+		};
+		class Item426
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10267.74,4.566771,2236.4211};
+				angles[]={6.2815661,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1458;
+			type="Land_Cargo20_blue_F";
+			atlOffset=0.0068056583;
+		};
+		class Item427
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10271.293,4.5519609,2232.7852};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1459;
+			type="Land_Cargo20_light_green_F";
+			atlOffset=8.6305017;
+		};
+		class Item428
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10254.379,4.5664687,2236.5244};
+				angles[]={6.2815661,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1460;
+			type="Land_Cargo20_red_F";
+			atlOffset=0.0066177845;
+		};
+		class Item429
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10255.936,4.5999746,2229.5195};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1461;
+			type="Land_Cargo10_brick_red_F";
+			atlOffset=9.5367432e-07;
+		};
+		class Item430
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10247.003,4.6042547,2226.2734};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1462;
+			type="Land_Cargo10_grey_F";
+			atlOffset=6.320261;
+		};
+		class Item431
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10230.536,4.4734221,2226.9099};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1463;
+			type="Land_Cargo10_light_blue_F";
+			atlOffset=5.5093126;
+		};
+		class Item432
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10229.688,3.2133021,2231.6626};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1464;
+			type="Land_TinContainer_F";
+			atlOffset=5.4021006;
+		};
+		class Item433
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10222.406,4.522244,2237.877};
+				angles[]={6.2815661,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1465;
+			type="B_Slingload_01_Ammo_F";
+			atlOffset=5.3144655;
+		};
+		class Item434
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10216.368,4.5009995,2238.1265};
+				angles[]={6.2815661,0.027970992,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1466;
+			type="B_Slingload_01_Medevac_F";
+			atlOffset=5.6405063;
+		};
+		class Item435
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10207.168,4.5074778,2245.6174};
+				angles[]={6.2815661,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1468;
+			type="Land_Cargo40_yellow_F";
+			atlOffset=5.6153164;
+		};
+		class Item436
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10223.309,4.5023012,2246.6335};
+				angles[]={6.2815661,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1469;
+			type="Land_Cargo20_brick_red_F";
+			atlOffset=5.8043537;
+		};
+		class Item437
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10212.072,4.4450183,2226.4143};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1470;
+			type="Land_Cargo20_light_green_F";
+			atlOffset=4.0533481;
+		};
+		class Item438
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10203.702,4.4273267,2225.375};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1471;
+			type="Land_Cargo20_red_F";
+			atlOffset=3.3196609;
+		};
+		class Item439
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10162.063,4.4331217,2225.2693};
+				angles[]={0.0016194459,0,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1472;
+			type="Land_Cargo20_orange_F";
+			atlOffset=2.303257;
+		};
+		class Item440
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10172.536,4.0337486,2225.7095};
+				angles[]={0.0016194459,5.4358363,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1474;
+			type="Land_SatelliteAntenna_01_F";
+			atlOffset=0.0065355301;
+		};
+		class Item441
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10180.164,5.0114584,2229.7793};
+				angles[]={0.0016194459,4.7175202,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="LOCKEDPLAYER";
+			};
+			id=1487;
+			type="RHS_Ural_Civ_01";
+			atlOffset=2.3841858e-07;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="rhs_decalArmy_type";
+					expression="_this setVariable ['rhs_decalArmy_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="rhs_decalNumber_type";
+					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cDecals4CarsNumberPlaces, _value]]] call rhs_fnc_decalsInit";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Default";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalArmy";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsCarsRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_decalPlatoon_type";
+					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Army";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="rhs_decalPlatoon";
+					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsCarsRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="-1";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item442
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10152.612,4.4675694,2246.9407};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1499;
+			type="Land_HBarrierTower_F";
+			atlOffset=2.4840682;
+		};
+		class Item443
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10156.276,3.068233,2269.446};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1501;
+			type="rhs_prv13";
+		};
+	};
+};
