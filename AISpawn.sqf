@@ -60,11 +60,11 @@ MySpawnAI = {
 		_redblue = creategroup civilian;
 		[_unit] join _redblue;
 		_unit setSkill _skill;
-		_unit setskill ["aimingAccuracy",_skill];
-		_unit setskill ["aimingSpeed",_skill];
-		_unit setskill ["spotTime",_skill];
-		_unit setskill ["aimingShake",_skill];
-		_unit setskill ["courage",1];
+		_unit setskill ["aimingAccuracy", _skill];
+		_unit setskill ["aimingSpeed", _skill];
+		_unit setskill ["spotTime", _skill];
+		_unit setskill ["aimingShake", _skill];
+		_unit setskill ["courage", 1];
 		_grp = group _unit;
 		_unit addRating -9999;
 		_unit addEventHandler ["killed", "if ((name (_this select 1)) isEqualTo (name player)) then {KillsCounter = KillsCounter +1}; MyPlayersCount = MyPlayersCount -1;plalive = MyPlayersCount; if (isSpawnLoaded) then {(_this select 0) globalChat format ['%1 was killed by %2. Players alive: %3', (name (_this select 0)), (name (_this select 1)), MyPlayersCount]; call updateUI;};"];
@@ -87,32 +87,33 @@ MySpawnAI = {
 		_planePosZ = _mylastPlanePos select 2;
 		_planePosY = _mylastPlanePos select 1;
 		_mylastPlanePos set [2, _planePosZ + 200];
-		_myplanePos set [1, _planePosY - 100];};
-		[_myplane, _mylastPlanePos] call createWapoint;
+		_myplanePos set [1, _planePosY - 100];
 	};
+	[_myplane, _mylastPlanePos] call createWapoint;
+};
 
-	getLastPointId = {
-		lastpointId = 0;
-		switch (randompos) do {
-			case 0: { lastpointId = 4 };
-			case 1: { lastpointId = 7 };
-			case 2: { lastpointId = 11 };
-			case 3: { lastpointId = 12 };
-			case 4: { lastpointId = 14 };
-			case 5: { lastpointId = 13 };
-			case 6: { lastpointId = 13 };
-			case 7: { lastpointId = 13 };
-			case 8: { lastpointId = 13 };
-			case 9: { lastpointId = 11 };
-			case 10: { lastpointId = 5 };
-			case 11: { lastpointId = 7 };
-			case 12: { lastpointId = 7 };
-			case 13: { lastpointId = 4 };
-			case 14: { lastpointId = 4 };
-		};
+getLastPointId = {
+	lastpointId = 0;
+	switch (randompos) do {
+		case 0: { lastpointId = 4 };
+		case 1: { lastpointId = 7 };
+		case 2: { lastpointId = 11 };
+		case 3: { lastpointId = 12 };
+		case 4: { lastpointId = 14 };
+		case 5: { lastpointId = 13 };
+		case 6: { lastpointId = 13 };
+		case 7: { lastpointId = 13 };
+		case 8: { lastpointId = 13 };
+		case 9: { lastpointId = 11 };
+		case 10: { lastpointId = 5 };
+		case 11: { lastpointId = 7 };
+		case 12: { lastpointId = 7 };
+		case 13: { lastpointId = 4 };
+		case 14: { lastpointId = 4 };
 	};
+};
 
-	EndTrGenerator = {
+EndTrGenerator = {
 	_p1 = planeSpawnPositionArray select randompos;
 	_p2 = planeSpawnPositionArray select lastpointId;
 
