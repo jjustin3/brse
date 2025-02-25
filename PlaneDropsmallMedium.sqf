@@ -56,7 +56,7 @@ dropCount = dropCount +1;
 
 				if (surfaceIsWater _posxh) then { _rym = 0 } else { _rym = floor random (250); };
 				
-				_dirDir= floor random (360);
+				_dirDir = floor random (360);
 				_x addBackPack "B_parachute";
 				unassignVehicle _x;
 				moveOut _x;
