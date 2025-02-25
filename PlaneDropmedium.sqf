@@ -31,11 +31,11 @@ dropCount = dropCount +1;
 				_x = _this select 0;
 				_posxh = getPosWorld _x;
 				_posxhm = _posxh;
-				_rxp=0;
-				_rxm=0;
-				_rym=0;
-				_ryp=0;
-				_dirDir=0; 
+				_rxp = 0;
+				_rxm = 0;
+				_rym = 0;
+				_ryp = 0;
+				_dirDir = 0; 
 				_Hvelocity = velocity _x;
 				_posxh set [0, (_posxh select 0) + 1500];
 
